@@ -1,64 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="520" viewBox="0 0 1500 520" role="img" aria-labelledby="title desc">
-<title id="title">Keefe project atlas</title>
-<desc id="desc">Six connected engineering areas: observe model traces, work with audio, explore mathematics, evaluate reasoning, develop models, and build operating-system foundations.</desc>
-<defs>
- <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#09120f"/><stop offset="1" stop-color="#20382c"/></linearGradient>
- <linearGradient id="card" x2="0" y2="1"><stop stop-color="#20392d"/><stop offset="1" stop-color="#101e17"/></linearGradient>
- <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feGaussianBlur in="SourceAlpha" stdDeviation="5"/><feOffset dy="6"/><feComponentTransfer><feFuncA type="linear" slope=".28"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-</defs>
-<rect width="1500" height="520" rx="24" fill="url(#bg)" stroke="#75927e" stroke-opacity=".45"/>
-<text x="58" y="58" fill="#d9bd8a" font-family="monospace" font-size="13" letter-spacing="3">PROJECT ATLAS / SIX CONNECTED DIRECTIONS</text>
-<text x="58" y="91" fill="#c3d3c5" font-family="Arial,sans-serif" font-size="23" font-weight="700">From observable behavior to the systems beneath it.</text>
-<path d="M250 244H1250M250 244V408M750 244V408M1250 244V408" stroke="#a2c1a8" stroke-width="2" stroke-dasharray="5 9" opacity=".4"/>
-<g filter="url(#shadow)">
- <g transform="translate(48 130)">
-  <rect width="430" height="150" rx="14" fill="url(#card)" stroke="#87a991"/>
-  <circle cx="44" cy="42" r="21" fill="#31513f" stroke="#b0cdb4"/><path d="M31 42H57M44 29V55M35 33L53 51M53 33L35 51" stroke="#e5eddf" stroke-width="1.5"/>
-  <text x="82" y="37" fill="#d9bd8a" font-family="monospace" font-size="12" letter-spacing="2">01 / OBSERVE</text>
-  <text x="28" y="87" fill="#f0f1e9" font-family="Arial,sans-serif" font-size="25" font-weight="700">Trace diagnostics</text>
-  <text x="28" y="117" fill="#b8cbbb" font-family="Arial,sans-serif" font-size="15">LLM Hallucination Checker Edge</text>
-  <text x="28" y="139" fill="#91b39a" font-family="monospace" font-size="11">OTEL · PYTHON · EDGE WORKER</text>
- </g>
- <g transform="translate(535 130)">
-  <rect width="430" height="150" rx="14" fill="url(#card)" stroke="#87a991"/>
-  <circle cx="44" cy="42" r="21" fill="#31513f" stroke="#b0cdb4"/><path d="M35 31Q44 22 53 31V46Q44 56 35 46Z M39 57L36 62M49 57L52 62" fill="none" stroke="#e5eddf" stroke-width="1.8"/>
-  <text x="82" y="37" fill="#d9bd8a" font-family="monospace" font-size="12" letter-spacing="2">02 / TRANSLATE</text>
-  <text x="28" y="87" fill="#f0f1e9" font-family="Arial,sans-serif" font-size="25" font-weight="700">Audio workflows</text>
-  <text x="28" y="117" fill="#b8cbbb" font-family="Arial,sans-serif" font-size="15">VoxShift · speech and transcripts</text>
-  <text x="28" y="139" fill="#91b39a" font-family="monospace" font-size="11">ASR · TRANSLATION · AUDIO TOOLS</text>
- </g>
- <g transform="translate(1022 130)">
-  <rect width="430" height="150" rx="14" fill="url(#card)" stroke="#87a991"/>
-  <circle cx="44" cy="42" r="21" fill="#31513f" stroke="#b0cdb4"/><path d="M31 51L39 34L46 43L57 28" fill="none" stroke="#e5eddf" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="82" y="37" fill="#d9bd8a" font-family="monospace" font-size="12" letter-spacing="2">03 / EXPLORE</text>
-  <text x="28" y="87" fill="#f0f1e9" font-family="Arial,sans-serif" font-size="25" font-weight="700">Mathematical tools</text>
-  <text x="28" y="117" fill="#b8cbbb" font-family="Arial,sans-serif" font-size="15">Keefe Calculator</text>
-  <text x="28" y="139" fill="#91b39a" font-family="monospace" font-size="11">SCIENTIFIC · GRAPHS · CONVERSION</text>
- </g>
- <g transform="translate(48 322)">
-  <rect width="430" height="150" rx="14" fill="url(#card)" stroke="#87a991"/>
-  <circle cx="44" cy="42" r="21" fill="#31513f" stroke="#b0cdb4"/><path d="M31 34H57M31 42H52M31 50H55" stroke="#e5eddf" stroke-width="2" stroke-linecap="round"/>
-  <text x="82" y="37" fill="#d9bd8a" font-family="monospace" font-size="12" letter-spacing="2">04 / EVALUATE</text>
-  <text x="28" y="87" fill="#f0f1e9" font-family="Arial,sans-serif" font-size="25" font-weight="700">Reasoning research</text>
-  <text x="28" y="117" fill="#b8cbbb" font-family="Arial,sans-serif" font-size="15">Data-Provecta</text>
-  <text x="28" y="139" fill="#91b39a" font-family="monospace" font-size="11">STATE · EVIDENCE · CONSISTENCY</text>
- </g>
- <g transform="translate(535 322)">
-  <rect width="430" height="150" rx="14" fill="url(#card)" stroke="#87a991"/>
-  <circle cx="44" cy="42" r="21" fill="#31513f" stroke="#b0cdb4"/><path d="M32 53V31H56V53Z M37 37H51M37 43H51" fill="none" stroke="#e5eddf" stroke-width="1.8"/>
-  <text x="82" y="37" fill="#d9bd8a" font-family="monospace" font-size="12" letter-spacing="2">05 / EXPERIMENT</text>
-  <text x="28" y="87" fill="#f0f1e9" font-family="Arial,sans-serif" font-size="25" font-weight="700">Model development</text>
-  <text x="28" y="117" fill="#b8cbbb" font-family="Arial,sans-serif" font-size="15">Keefe-Discere · speech models</text>
-  <text x="28" y="139" fill="#91b39a" font-family="monospace" font-size="11">FINE-TUNING · GGUF · SAFETENSORS</text>
- </g>
- <g transform="translate(1022 322)">
-  <rect width="430" height="150" rx="14" fill="url(#card)" stroke="#87a991"/>
-  <circle cx="44" cy="42" r="21" fill="#31513f" stroke="#b0cdb4"/><path d="M31 53V35L44 27L57 35V53M39 53V42H49V53" fill="none" stroke="#e5eddf" stroke-width="1.8"/>
-  <text x="82" y="37" fill="#d9bd8a" font-family="monospace" font-size="12" letter-spacing="2">06 / ENGINEER</text>
-  <text x="28" y="87" fill="#f0f1e9" font-family="Arial,sans-serif" font-size="25" font-weight="700">Systems foundations</text>
-  <text x="28" y="117" fill="#b8cbbb" font-family="Arial,sans-serif" font-size="15">KeefeOS · x86-64 prototype</text>
-  <text x="28" y="139" fill="#91b39a" font-family="monospace" font-size="11">RUST · UEFI · QEMU / OVMF</text>
- </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="430" viewBox="0 0 1500 430" role="img" aria-labelledby="title desc">
+<title id="title">Keefe project areas</title>
+<desc id="desc">A simple editorial map of six project areas connected by a shared build and evaluation loop.</desc>
+<rect width="1500" height="430" fill="#f1eee4"/>
+<text x="54" y="48" fill="#647369" font-family="monospace" font-size="12" letter-spacing="2">PROJECT INDEX / CURRENT DIRECTIONS</text>
+<text x="54" y="88" fill="#26342c" font-family="Arial,sans-serif" font-size="27" font-weight="700">Different problems. One engineering loop.</text>
+<path d="M94 195H1406" stroke="#8e9a8e" stroke-width="1.5"/>
+<g font-family="monospace" font-size="12" fill="#647369">
+ <g transform="translate(54 145)"><circle cx="40" cy="50" r="26" fill="#e4e0d4" stroke="#647369"/><text x="40" y="55" text-anchor="middle" fill="#26342c" font-size="14">01</text><text x="0" y="105" fill="#26342c" font-family="Arial,sans-serif" font-size="20" font-weight="700">Trace tools</text><text x="0" y="130">OBSERVE</text><text x="0" y="155">LLM trace diagnostics</text></g>
+ <g transform="translate(294 145)"><circle cx="40" cy="50" r="26" fill="#e4e0d4" stroke="#647369"/><text x="40" y="55" text-anchor="middle" fill="#26342c" font-size="14">02</text><text x="0" y="105" fill="#26342c" font-family="Arial,sans-serif" font-size="20" font-weight="700">Audio</text><text x="0" y="130">TRANSFORM</text><text x="0" y="155">Speech and transcripts</text></g>
+ <g transform="translate(534 145)"><circle cx="40" cy="50" r="26" fill="#e4e0d4" stroke="#647369"/><text x="40" y="55" text-anchor="middle" fill="#26342c" font-size="14">03</text><text x="0" y="105" fill="#26342c" font-family="Arial,sans-serif" font-size="20" font-weight="700">Math tools</text><text x="0" y="130">EXPLORE</text><text x="0" y="155">Calculation and graphs</text></g>
+ <g transform="translate(774 145)"><circle cx="40" cy="50" r="26" fill="#e4e0d4" stroke="#647369"/><text x="40" y="55" text-anchor="middle" fill="#26342c" font-size="14">04</text><text x="0" y="105" fill="#26342c" font-family="Arial,sans-serif" font-size="20" font-weight="700">AI evaluation</text><text x="0" y="130">MEASURE</text><text x="0" y="155">State and consistency</text></g>
+ <g transform="translate(1014 145)"><circle cx="40" cy="50" r="26" fill="#e4e0d4" stroke="#647369"/><text x="40" y="55" text-anchor="middle" fill="#26342c" font-size="14">05</text><text x="0" y="105" fill="#26342c" font-family="Arial,sans-serif" font-size="20" font-weight="700">Model lab</text><text x="0" y="130">EXPERIMENT</text><text x="0" y="155">Fine-tuning and inference</text></g>
+ <g transform="translate(1254 145)"><circle cx="40" cy="50" r="26" fill="#e4e0d4" stroke="#647369"/><text x="40" y="55" text-anchor="middle" fill="#26342c" font-size="14">06</text><text x="0" y="105" fill="#26342c" font-family="Arial,sans-serif" font-size="20" font-weight="700">Systems</text><text x="0" y="130">ENGINEER</text><text x="0" y="155">Rust and OS foundations</text></g>
 </g>
-<text x="750" y="502" text-anchor="middle" fill="#9eb9a4" font-family="monospace" font-size="11" letter-spacing="2">PRODUCTS / RESEARCH / EXPERIMENTS / SYSTEMS</text>
+<path d="M54 365H1446" stroke="#aaa99a"/>
+<text x="54" y="397" fill="#647369" font-family="monospace" font-size="11" letter-spacing="1.5">OBSERVE → BUILD → TEST → MEASURE → DOCUMENT → REPEAT</text>
 </svg>
