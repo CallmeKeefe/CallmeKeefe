@@ -1,11 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="52" viewBox="0 0 1200 52" role="img" aria-labelledby="title desc">
-  <title id="title">Terminal prompt divider</title>
-  <desc id="desc">A thin jade line interrupted by a small terminal prompt and a warm accent cursor.</desc>
-  <defs><linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#658a73" stop-opacity="0"/><stop offset=".2" stop-color="#658a73" stop-opacity=".8"/><stop offset=".8" stop-color="#658a73" stop-opacity=".8"/><stop offset="1" stop-color="#658a73" stop-opacity="0"/></linearGradient></defs>
-  <path d="M0 26H500M700 26H1200" stroke="url(#line)" stroke-width="2"/>
-  <rect x="514" y="9" width="172" height="34" rx="7" fill="#14231d" stroke="#668875" stroke-opacity=".6"/>
-  <path d="M530 20L538 26L530 32" fill="none" stroke="#a9c8b1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M546 32H559" stroke="#d0aa70" stroke-width="2"/>
-  <rect x="568" y="18" width="5" height="16" rx="1" fill="#c77c62"/>
-  <text x="586" y="30" fill="#b8cbbb" font-family="monospace" font-size="10" letter-spacing="1.4">NEXT / BUILD</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="84" viewBox="0 0 1600 84" role="img" aria-labelledby="title desc">
+<title id="title">Keefe terminal command divider</title>
+<desc id="desc">A refined terminal prompt set into a long jade circuit-like line with warm status lights.</desc>
+<defs>
+ <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#6d9279" stop-opacity="0"/><stop offset=".2" stop-color="#6d9279" stop-opacity=".75"/><stop offset=".8" stop-color="#6d9279" stop-opacity=".75"/><stop offset="1" stop-color="#6d9279" stop-opacity="0"/></linearGradient>
+ <linearGradient id="pill" x2="0" y2="1"><stop stop-color="#213a2d"/><stop offset="1" stop-color="#0e1b14"/></linearGradient>
+ <filter id="shadow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur in="SourceAlpha" stdDeviation="4"/><feOffset dy="3"/><feComponentTransfer><feFuncA type="linear" slope=".35"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<path d="M0 42H610M990 42H1600" stroke="url(#line)" stroke-width="2"/>
+<path d="M90 42H610M990 42H1510" stroke="#9cbaa2" stroke-opacity=".12" stroke-width="8" stroke-dasharray="2 16"/>
+<g fill="#9dbba3"><circle cx="220" cy="42" r="3"/><circle cx="1380" cy="42" r="3"/></g>
+<g filter="url(#shadow)">
+ <path d="M630 18H970L986 34V50L970 66H630L614 50V34Z" fill="url(#pill)" stroke="#799982" stroke-width="1.5"/>
+ <path d="M630 18H970" stroke="#b1cbb4" stroke-opacity=".25"/>
+ <path d="M650 33L661 42L650 51" fill="none" stroke="#b8d0bb" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M672 52H694" stroke="#d7b77b" stroke-width="2.4" stroke-linecap="round"/>
+ <rect x="708" y="32" width="6" height="20" rx="1" fill="#c77c62"/>
+ <text x="733" y="48" fill="#c3d4c5" font-family="monospace" font-size="14" letter-spacing="2">NEXT / BUILD</text>
+ <circle cx="955" cy="42" r="4" fill="#91b69a"/>
+</g>
+<text x="72" y="25" fill="#789681" font-family="monospace" font-size="10" letter-spacing="2">WORKBENCH / 01</text>
+<text x="1528" y="25" text-anchor="end" fill="#789681" font-family="monospace" font-size="10" letter-spacing="2">ITERATION / CONTINUES</text>
 </svg>
