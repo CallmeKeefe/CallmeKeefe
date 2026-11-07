@@ -139,7 +139,7 @@ An experimental Qwen2/Qwen2.5-based model-development series. Published checkpoi
 | [Keefe-Discere v5.0 GGUF](https://huggingface.co/KeefeBuild/Keefe-Discere-v5.0-GGUF) | GGUF / llama.cpp distribution |
 | [Keefe-Discere v5.0 GodTier Q4_K_M GGUF](https://huggingface.co/KeefeBuild/Keefe-Discere-v5.0-GodTier-Q4_K_M-GGUF) | Quantized 4-bit GGUF artifact |
 
-The series also has earlier v3.x and v5.0-family references in model/provider records. Use the Hub profile as the canonical live inventory rather than assuming every historical checkpoint is still public or maintained.
+**Additional version-lineage names found during the catalog search:** `Keefe-Discere-v3.0-Ultimate`, `Keefe-Discere-v3.0-Final`, `Keefe-Discere-v3.1`, `Keefe-Discere-v3.3`, `Keefe-Discere-v5.0`, and `Keefe-Discere-v5.0-GodTier`. Some appear as base-model or provider-catalog references rather than independently confirmed public Hub cards, so I have not presented them as separately verified downloads. The [KeefeBuild model profile](https://huggingface.co/KeefeBuild?tab=models) is the live source of truth for current visibility and availability.
 
 ### Speech-model experiments
 
