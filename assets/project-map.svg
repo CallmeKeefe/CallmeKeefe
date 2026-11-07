@@ -24,7 +24,7 @@
  <text x="0" y="8" text-anchor="middle" fill="#173326" font-family="monospace" font-size="13" font-weight="700">02</text>
  <text x="0" y="139" text-anchor="middle" fill="#f0ead9" font-family="Arial,sans-serif" font-size="18" font-weight="700">AUDIO</text>
  <text x="0" y="163" text-anchor="middle" fill="#d6bd8e" font-family="monospace" font-size="11" letter-spacing="1">TRANSFORM</text>
- <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">Speech & transcripts</text>
+ <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">Speech &amp; transcripts</text>
 </g><g transform="translate(625 240)">
  <ellipse cx="0" cy="115" rx="98" ry="18" fill="#000" opacity=".28" filter="url(#mapshadow)"/>
  <path d="M-92 0L0 -30L92 0L0 34Z" fill="#9db392" stroke="#d0d8bd" stroke-width="1.5"/>
@@ -33,7 +33,7 @@
  <text x="0" y="8" text-anchor="middle" fill="#173326" font-family="monospace" font-size="13" font-weight="700">03</text>
  <text x="0" y="139" text-anchor="middle" fill="#f0ead9" font-family="Arial,sans-serif" font-size="18" font-weight="700">MATH TOOLS</text>
  <text x="0" y="163" text-anchor="middle" fill="#d6bd8e" font-family="monospace" font-size="11" letter-spacing="1">EXPLORE</text>
- <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">Calculation & graphs</text>
+ <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">Calculation &amp; graphs</text>
 </g><g transform="translate(865 180)">
  <ellipse cx="0" cy="115" rx="98" ry="18" fill="#000" opacity=".28" filter="url(#mapshadow)"/>
  <path d="M-92 0L0 -30L92 0L0 34Z" fill="#9db392" stroke="#d0d8bd" stroke-width="1.5"/>
@@ -42,7 +42,7 @@
  <text x="0" y="8" text-anchor="middle" fill="#173326" font-family="monospace" font-size="13" font-weight="700">04</text>
  <text x="0" y="139" text-anchor="middle" fill="#f0ead9" font-family="Arial,sans-serif" font-size="18" font-weight="700">AI EVALUATION</text>
  <text x="0" y="163" text-anchor="middle" fill="#d6bd8e" font-family="monospace" font-size="11" letter-spacing="1">MEASURE</text>
- <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">State & consistency</text>
+ <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">State &amp; consistency</text>
 </g><g transform="translate(1105 240)">
  <ellipse cx="0" cy="115" rx="98" ry="18" fill="#000" opacity=".28" filter="url(#mapshadow)"/>
  <path d="M-92 0L0 -30L92 0L0 34Z" fill="#9db392" stroke="#d0d8bd" stroke-width="1.5"/>
@@ -51,7 +51,7 @@
  <text x="0" y="8" text-anchor="middle" fill="#173326" font-family="monospace" font-size="13" font-weight="700">05</text>
  <text x="0" y="139" text-anchor="middle" fill="#f0ead9" font-family="Arial,sans-serif" font-size="18" font-weight="700">MODEL LAB</text>
  <text x="0" y="163" text-anchor="middle" fill="#d6bd8e" font-family="monospace" font-size="11" letter-spacing="1">EXPERIMENT</text>
- <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">Fine-tuning & inference</text>
+ <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">Fine-tuning &amp; inference</text>
 </g><g transform="translate(1350 180)">
  <ellipse cx="0" cy="115" rx="98" ry="18" fill="#000" opacity=".28" filter="url(#mapshadow)"/>
  <path d="M-92 0L0 -30L92 0L0 34Z" fill="#9db392" stroke="#d0d8bd" stroke-width="1.5"/>
@@ -60,7 +60,7 @@
  <text x="0" y="8" text-anchor="middle" fill="#173326" font-family="monospace" font-size="13" font-weight="700">06</text>
  <text x="0" y="139" text-anchor="middle" fill="#f0ead9" font-family="Arial,sans-serif" font-size="18" font-weight="700">SYSTEMS</text>
  <text x="0" y="163" text-anchor="middle" fill="#d6bd8e" font-family="monospace" font-size="11" letter-spacing="1">ENGINEER</text>
- <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">Rust & OS foundations</text>
+ <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">Rust &amp; OS foundations</text>
 </g>
 <path d="M54 445H1446" stroke="#547b66"/>
 <text x="54" y="475" fill="#a9c1a7" font-family="monospace" font-size="11" letter-spacing="1.5">OBSERVE  →  BUILD  →  TEST  →  MEASURE  →  DOCUMENT  →  REPEAT</text>
