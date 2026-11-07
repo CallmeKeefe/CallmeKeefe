@@ -4,7 +4,7 @@
 -->
 
 <p align="center">
-  <img src="assets/profile-header.svg" alt="Deep-jade terminal workbench with Xiangqi and chess boards" width="100%" />
+  <img src="https://raw.githubusercontent.com/CallmeKeefe/CallmeKeefe/main/assets/profile-header.svg" alt="Deep-jade terminal workbench with Xiangqi and chess boards" width="100%" />
 </p>
 
 <h1 align="center">Steven Keefe</h1>
@@ -32,7 +32,7 @@ I prefer projects that can be inspected rather than described with inflated clai
 - Can a visual interface be expressive without sacrificing clarity or accessibility?
 
 <p align="center">
-  <img src="assets/terminal-stage.svg" alt="Isometric engineering terminal with build, test and improve stages" width="100%" />
+  <img src="https://raw.githubusercontent.com/CallmeKeefe/CallmeKeefe/main/assets/terminal-stage.svg" alt="Isometric engineering terminal with build, test and improve stages" width="100%" />
 </p>
 
 ### Workbench / terminal session
@@ -66,7 +66,7 @@ I prefer projects that can be inspected rather than described with inflated clai
 A map of the main areas I build in:
 
 <p align="center">
-  <img src="assets/project-map.svg" alt="Six connected project areas: trace diagnostics, audio, math tools, reasoning research, model development, and systems engineering" width="100%" />
+  <img src="https://raw.githubusercontent.com/CallmeKeefe/CallmeKeefe/main/assets/project-map.svg" alt="Six connected project areas: trace diagnostics, audio, math tools, reasoning research, model development, and systems engineering" width="100%" />
 </p>
 
 ## Public projects
@@ -195,7 +195,7 @@ An experimental Qwen2/Qwen2.5-based model-development series. Published checkpoi
 - **Iterate deliberately.** Treat failures as information about the next experiment.
 
 <p align="center">
-  <img src="assets/terminal-divider.svg" alt="Terminal prompt divider" width="100%" />
+  <img src="https://raw.githubusercontent.com/CallmeKeefe/CallmeKeefe/main/assets/terminal-divider.svg" alt="Terminal prompt divider" width="100%" />
 </p>
 
 <p align="center">
