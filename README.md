@@ -151,7 +151,7 @@ The series also has earlier v3.x and v5.0-family references in model/provider re
 - [Data-Provecta](https://huggingface.co/datasets/KeefeBuild/Data-Provecta) — a structured dataset and evaluation project for long-horizon grounded reasoning, temporal consistency, state tracking, tool grounding, conflict resolution, and uncertainty calibration. The current public viewer reports 80 rows across its published splits. Its evaluation framework includes a Multi-Trial Consistency (MTC) metric and adversarial scenario variants.
 - [Keefe-Discere Multimodal OS Space](https://huggingface.co/spaces/KeefeBuild/Keefe-Discere-Multimodal-OS) — associated Space for the Keefe-Discere multimodal/OS experiment.
 
-**Hub index:** [All KeefeBuild models](https://huggingface.co/KeefeBuild? tab=models) · [All datasets](https://huggingface.co/KeefeBuild?tab=datasets) · [All Spaces](https://huggingface.co/KeefeBuild?tab=spaces)
+**Hub index:** [All KeefeBuild models](https://huggingface.co/KeefeBuild?tab=models) · [All datasets](https://huggingface.co/KeefeBuild?tab=datasets) · [All Spaces](https://huggingface.co/KeefeBuild?tab=spaces)
 
 ---
 
