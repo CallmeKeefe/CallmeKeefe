@@ -68,6 +68,40 @@ I prefer projects that can be inspected rather than described with inflated clai
 
 The terminal transcript above is illustrative artwork, not a live build report.
 
+### Board studies / terminal sketchbook
+
+```text
+CHESS  /  START POSITION
+    a b c d e f g h
+ 8  r n b q k b n r
+ 7  p p p p p p p p
+ 6  . . . . . . . .
+ 5  . . . . . . . .
+ 4  . . . . . . . .
+ 3  . . . . . . . .
+ 2  P P P P P P P P
+ 1  R N B Q K B N R
+
+XIANGQI  /  START POSITION
+    a b c d e f g h i
+10  R N B A K A B N R
+ 9  . . . . . . . . .
+ 8  . C . . . . . C .
+ 7  P . P . P . P . P
+    ----------- RIVER -----------
+ 4  p . p . p . p . p
+ 3  . c . . . . . c .
+ 2  . . . . . . . . .
+ 1  r n b a k a b n r
+
+ISOMETRIC DESK
+             __________________________
+            /_________________________/|
+           |  TERMINAL  |  TESTS      | |
+           |  MODELS    |  NOTES      | /
+           |____________|____________|/
+```
+
 ---
 
 ## `$ tree ./work`
