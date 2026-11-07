@@ -1,113 +1,171 @@
+<!--
+  KEEFE // COMMAND
+  A static GitHub profile terminal: command-line identity × Xiangqi × chess.
+  All board diagrams are illustrative starting positions, not interactive games.
+-->
+
 <div align="center">
 
-<img src="./assets/profile-banner.svg" width="100%" alt="Steven Keefe — Software Developer and AI/ML Builder" />
+# KEEFE<span> // </span>COMMAND
 
-<p>
-  <a href="https://keefe.is-a.dev/">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="https://huggingface.co/KeefeBuild">Hugging Face</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/CallmeKeefe?tab=repositories">GitHub repositories</a>
-</p>
+**STEVEN KEEFE** · SOFTWARE / AI SYSTEMS / OPEN SOURCE
 
-**AI/ML · Software Engineering · Open Source**
+`operator@github` &nbsp;·&nbsp; [portfolio](https://keefe.is-a.dev) &nbsp;·&nbsp; [Hugging Face](https://huggingface.co/KeefeBuild)
 
 </div>
 
 ---
 
-## About
+## `$ whoami`
 
-I'm an independent developer building at the intersection of **AI/ML, web engineering, and developer tools**. I enjoy turning complex ideas into practical software—from fine-tuning and evaluating language models to shipping browser-based applications.
+```console
+operator@keefe:~$ whoami
+Steven Keefe
 
-My approach is research-led and iterative: understand the problem, build a useful version, test its limits, document what the evidence supports, and keep improving.
+operator@keefe:~$ printf "%s\n" "What I build"
+AI/ML experiments, web applications, developer tools,
+and systems-oriented software.
 
-I care about **clear engineering, honest claims, reproducible work, and useful outcomes** more than hype.
+operator@keefe:~$ cat principles.txt
+- Understand the system before changing it.
+- Prefer evidence to impressive-sounding claims.
+- Build, test, document, iterate.
+- Treat a failed experiment as information.
 
-## Selected work
+operator@keefe:~$ _
+```
 
-A selection of released projects and public work. Each description links directly to its source or model page.
+I work across software engineering and AI/ML, with a particular interest in how intelligent systems reason, track state, and interact with tools. I also enjoy strategy games, music, and writing—disciplines that reward patience, structure, and pattern recognition.
 
-### 01 · [Data-Provecta](https://huggingface.co/datasets/KeefeBuild/Data-Provecta)
+## `$ board --show`
 
-**AI evaluation dataset · Hugging Face**
+Two strategy traditions. Two different geometries. One shared fascination with planning ahead.
 
-A structured dataset for examining whether AI systems can remain consistent as a scenario evolves. It focuses on long-horizon reasoning, state tracking, conflicting evidence, tool grounding, adversarial variations, and uncertainty calibration.
+### Xiangqi · 9 files × 10 ranks
 
-[Dataset and documentation ↗](https://huggingface.co/datasets/KeefeBuild/Data-Provecta)
+```text
+       a   b   c   d   e   f   g   h   i
+    ┌─────────────────────────────────────┐
+10  │  r   n   b   a   k   a   b   n   r  │
+ 9  │  .   .   .   .   .   .   .   .   .  │
+ 8  │  .   c   .   .   .   .   .   c   .  │
+ 7  │  p   .   p   .   p   .   p   .   p  │
+ 6  │  .   .   .   .   .   .   .   .   .  │
+    │──────────────  RIVER  ──────────────│
+ 5  │  .   .   .   .   .   .   .   .   .  │
+ 4  │  P   .   P   .   P   .   P   .   P  │
+ 3  │  .   C   .   .   .   .   .   C   .  │
+ 2  │  .   .   .   .   .   .   .   .   .  │
+ 1  │  R   N   B   A   K   A   B   N   R  │
+    └─────────────────────────────────────┘
+       BLACK ↑                    RED ↓
 
-### 02 · [Keefe-Discere](https://huggingface.co/KeefeBuild/Keefe-Discere)
+  r/R rook   n/N horse   b/B elephant   a/A advisor
+  k/K general   c/C cannon   p/P soldier
+```
 
-**Fine-tuned language model · Qwen2.5 · Apache-2.0**
+### Western chess · 8 × 8
 
-A published Qwen2.5-based fine-tuning project with model artifacts in Safetensors and GGUF formats, plus usage instructions for common inference workflows.
+```text
+       a   b   c   d   e   f   g   h
+    ┌─────────────────────────────────┐
+ 8  │  ♜   ♞   ♝   ♛   ♚   ♝   ♞   ♜  │
+ 7  │  ♟   ♟   ♟   ♟   ♟   ♟   ♟   ♟  │
+ 6  │  ·   ·   ·   ·   ·   ·   ·   ·  │
+ 5  │  ·   ·   ·   ·   ·   ·   ·   ·  │
+ 4  │  ·   ·   ·   ·   ·   ·   ·   ·  │
+ 3  │  ·   ·   ·   ·   ·   ·   ·   ·  │
+ 2  │  ♙   ♙   ♙   ♙   ♙   ♙   ♙   ♙  │
+ 1  │  ♖   ♘   ♗   ♕   ♔   ♗   ♘   ♖  │
+    └─────────────────────────────────┘
+       WHITE TO MOVE
+```
 
-[Model repository ↗](https://huggingface.co/KeefeBuild/Keefe-Discere)
+I play and study Xiangqi, chess, and Go, with a particular interest in tactics, positional play, and endgames. I have also received awards in offline Xiangqi competition.
 
-### 03 · [LLM Hallucination Checker Edge](https://github.com/CallmeKeefe/llm-hallucination-checker-edge)
+## `$ ls -la ./work`
 
-**Open-source developer tool · Python · OpenTelemetry**
+These are selected public releases and deployed projects—not a list of every experiment or unfinished idea.
 
-A lightweight diagnostic utility for GenAI trace spans. Deterministic heuristics flag structural signals such as empty completions, missing citation markers, and missing model metadata. Its score is a **triage signal, not a probability of hallucination or a verification of factual truth**.
+| PATH | PROJECT | DESCRIPTION |
+|:--|:--|:--|
+| `/research` | [Data-Provecta](https://huggingface.co/datasets/KeefeBuild/Data-Provecta) | Dataset research into state tracking, evidence conflicts, tool grounding, and consistency in AI systems. |
+| `/models` | [Keefe-Discere](https://huggingface.co/KeefeBuild/Keefe-Discere) | Published Qwen2.5-based fine-tuning project with model artifacts. |
+| `/tools` | [LLM Hallucination Checker Edge](https://github.com/CallmeKeefe/llm-hallucination-checker-edge) | OpenTelemetry-native diagnostics for structural issues in GenAI traces. A triage aid—not a factuality verifier. |
+| `/games` | [Xiangqi Game](https://github.com/CallmeKeefe/xiangqi-game) | Browser-based Chinese chess with local play and a built-in AI opponent. |
 
-[Source code ↗](https://github.com/CallmeKeefe/llm-hallucination-checker-edge) · [Live demo ↗](https://llm-hallucination-checker.pages.dev/)
+### `$ ./deployments --list`
 
-### 04 · [Xiangqi Game](https://github.com/CallmeKeefe/xiangqi-game)
+```text
+[ONLINE]  vox-shift       https://vox-shift.vercel.app/
+[ONLINE]  keefe-calc      https://keefe-calculator.vercel.app/
+[ONLINE]  portfolio       https://keefe.is-a.dev/
+```
 
-**Browser-based strategy game · HTML · JavaScript**
+## `$ cat ./toolchain.conf`
 
-A self-contained Chinese chess game with local two-player play and a built-in AI opponent. Includes difficulty settings, move history, undo, and in-page analysis. It is a local browser game rather than an online multiplayer service.
+```ini
+[languages]
+python     = used
+rust       = used
+cpp        = used
+typescript = used
+javascript = used
 
-[Play and inspect the code ↗](https://github.com/CallmeKeefe/xiangqi-game)
+[web]
+react       = used
+nextjs      = used
+nodejs      = used
+tailwindcss = used
+prisma      = used
 
-## Deployed products
+[ai_ml]
+pytorch     = used
+huggingface = used
+transformers= used
+unsloth     = used
+lora        = used
 
-| Product | What it offers | Link |
-|---|---|---|
-| **Vox-Shift** | Full-stack web application | [Open ↗](https://vox-shift.vercel.app/) |
-| **Keefe Calculator** | Browser-based calculator | [Open ↗](https://keefe-calculator.vercel.app/) |
-| **Personal website** | Portfolio and project hub | [Visit ↗](https://keefe.is-a.dev/) |
+[platform]
+firebase       = used
+supabase       = used
+vercel         = used
+github_actions = used
+docker         = used
+```
 
-## Technical toolkit
+A practical snapshot of tools used across projects; not a claim of equal depth in every technology.
 
-| Focus | Technologies |
-|---|---|
-| **Languages** | Python · Rust · C++ · JavaScript · TypeScript |
-| **Web engineering** | React · Next.js · Node.js · Tailwind CSS · Prisma |
-| **AI / machine learning** | PyTorch · Hugging Face · Transformers · Unsloth · LoRA |
-| **Backend & platforms** | Firebase · Supabase · Vercel |
-| **Developer workflow** | Git · GitHub Actions · Docker |
+## `$ cat ./outside-the-terminal.txt`
 
-<sub>This is a snapshot of technologies I've used across projects, not a claim of equal depth in every tool.</sub>
+- **Writing** — author of *DEAD RECKONING*, a self-published hard science-fiction thriller.
+- **Music** — piano arrangements and traditional melodies using MuseScore and BandLab; learning the Erhu.
+- **Hands-on engineering** — built a small motorized seed-spreader prototype using repurposed materials and basic electronics.
+- **Research interests** — AI evaluation, systems architecture, mathematics, and the social sciences.
 
-## Beyond code
+## `$ git status --short`
 
-I enjoy disciplines that reward pattern recognition, patience, and deliberate practice.
+```text
+ M curiosity
+ M experiments
+?? better-questions
+?? next-iteration
+```
 
-- **Writing —** author of *DEAD RECKONING*, a self-published hard science-fiction psychological thriller.
-- **Strategy —** Xiangqi tournament award recipient; also study Western chess and Go, with an interest in tactics, positional play, and endgames.
-- **Music —** piano arrangements and traditional melodies using MuseScore and BandLab; Erhu practice.
-- **Hands-on building —** built a small motorized seed-spreader prototype using repurposed materials and basic electronics.
+## `$ contact`
 
-## What I'm exploring
+```text
+Portfolio   : https://keefe.is-a.dev
+GitHub      : https://github.com/CallmeKeefe
+Hugging Face: https://huggingface.co/KeefeBuild
+```
 
-- Reliable AI evaluation, grounded reasoning, and long-horizon state tracking.
-- Language-model fine-tuning, tool use, and uncertainty calibration.
-- Systems programming, operating-system architecture, and performance.
-- Responsive web applications and developer tools that are useful, testable, and maintainable.
-
-## Collaboration
-
-I'm interested in thoughtful collaboration on **AI evaluation, developer tooling, and practical open-source software**.
-
-The best starting point is a public repository: explore the implementation, open an issue with a reproducible example, or share specific technical feedback.
-
----
+If you're interested in AI evaluation, developer tools, or practical open-source engineering, explore a repository and open an issue with a concrete question or reproducible example.
 
 <div align="center">
 
-**Build carefully. Validate with evidence. Improve continuously.**
+`END OF SESSION`
 
-<sub>Thanks for visiting.</sub>
+**Think positionally. Build systematically. Verify every move.**
 
 </div>
