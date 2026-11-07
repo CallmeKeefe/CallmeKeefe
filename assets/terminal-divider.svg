@@ -1,9 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="64" viewBox="0 0 1500 64" role="img" aria-labelledby="title desc">
-<title id="title">Terminal prompt divider</title>
-<desc id="desc">A simple command prompt between two fine horizontal rules.</desc>
-<path d="M24 32H620M880 32H1476" stroke="#a9aa98" stroke-width="1"/>
-<rect x="620" y="8" width="260" height="48" fill="#f1eee4"/>
-<path d="M646 21L660 32L646 43" fill="none" stroke="#647369" stroke-width="2" stroke-linecap="square"/>
-<text x="678" y="37" fill="#26342c" font-family="monospace" font-size="14" letter-spacing="1.5">NEXT / BUILD</text>
-<circle cx="850" cy="32" r="3" fill="#9d4a3d"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="100" viewBox="0 0 1500 100" role="img" aria-labelledby="title desc">
+<title id="title">Deep Jade terminal divider</title>
+<desc id="desc">A terminal prompt rendered as a compact isometric green console between fine rules.</desc>
+<defs><linearGradient id="divtop" x2="0" y2="1"><stop stop-color="#416d53"/><stop offset="1" stop-color="#183c2d"/></linearGradient></defs>
+<rect width="1500" height="100" fill="#0b251d"/>
+<path d="M30 50H540M960 50H1470" stroke="#6e9074" stroke-width="1"/>
+<g transform="translate(750 50)">
+ <path d="M-190 -13L0 -39L190 -13L0 14Z" fill="#9eb493" stroke="#d3d8bf" stroke-width="1.2"/>
+ <path d="M-190 -13L0 14V35L-190 8Z" fill="#315b43" stroke="#9eb493" stroke-width="1.2"/>
+ <path d="M0 14L190 -13V8L0 35Z" fill="#173b2c" stroke="#9eb493" stroke-width="1.2"/>
+ <path d="M-132 -10L-113 0L-132 10" fill="none" stroke="#173326" stroke-width="3" stroke-linecap="square"/>
+ <text x="-92" y="5" fill="#173326" font-family="monospace" font-size="15" font-weight="700" letter-spacing="2">NEXT / BUILD</text>
+ <rect x="115" y="-5" width="7" height="11" fill="#a34f3e"/>
+</g>
 </svg>
