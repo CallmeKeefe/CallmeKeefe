@@ -98,35 +98,35 @@
       </g>
       <path d="M15 150H295" stroke="#694b31" stroke-width="1.2" stroke-dasharray="4 4" opacity=".45"/>
       <rect x="15" y="150" width="280" height="26" fill="#c79a64" opacity=".38"/>
-      <text x="155" y="167" text-anchor="middle" fill="#765437" font-family="serif" font-size="12" letter-spacing="7">楚 河   漢 界</text>
+      <text x="155" y="167" text-anchor="middle" fill="#765437" font-family="Noto Serif CJK SC, Noto Serif CJK TC, Songti SC, SimSun, serif" font-size="12" letter-spacing="7">楚 河   漢 界</text>
       <!-- Black back rank -->
       <g transform="translate(15 42)">
         <use href="#blackPiece" x="0"/><use href="#blackPiece" x="35"/><use href="#blackPiece" x="70"/><use href="#blackPiece" x="105"/><use href="#blackPiece" x="140"/><use href="#blackPiece" x="175"/><use href="#blackPiece" x="210"/><use href="#blackPiece" x="245"/><use href="#blackPiece" x="280"/>
-        <g fill="#f1dfbd" font-family="serif" font-size="15" font-weight="700" text-anchor="middle">
+        <g fill="#f1dfbd" font-family="Noto Serif CJK SC, Noto Serif CJK TC, Songti SC, SimSun, serif" font-size="15" font-weight="700" text-anchor="middle">
           <text x="0" y="5">車</text><text x="35" y="5">馬</text><text x="70" y="5">象</text><text x="105" y="5">士</text><text x="140" y="5">將</text><text x="175" y="5">士</text><text x="210" y="5">象</text><text x="245" y="5">馬</text><text x="280" y="5">車</text>
         </g>
       </g>
       <!-- Black cannons and soldiers -->
       <g transform="translate(15 96)">
         <use href="#blackPiece" x="35"/><use href="#blackPiece" x="245"/>
-        <g fill="#f1dfbd" font-family="serif" font-size="15" font-weight="700" text-anchor="middle"><text x="35" y="5">砲</text><text x="245" y="5">砲</text></g>
+        <g fill="#f1dfbd" font-family="Noto Serif CJK SC, Noto Serif CJK TC, Songti SC, SimSun, serif" font-size="15" font-weight="700" text-anchor="middle"><text x="35" y="5">砲</text><text x="245" y="5">砲</text></g>
       </g>
       <g transform="translate(15 123)">
         <use href="#blackPiece" x="0"/><use href="#blackPiece" x="70"/><use href="#blackPiece" x="140"/><use href="#blackPiece" x="210"/><use href="#blackPiece" x="280"/>
-        <g fill="#f1dfbd" font-family="serif" font-size="15" font-weight="700" text-anchor="middle"><text x="0" y="5">卒</text><text x="70" y="5">卒</text><text x="140" y="5">卒</text><text x="210" y="5">卒</text><text x="280" y="5">卒</text></g>
+        <g fill="#f1dfbd" font-family="Noto Serif CJK SC, Noto Serif CJK TC, Songti SC, SimSun, serif" font-size="15" font-weight="700" text-anchor="middle"><text x="0" y="5">卒</text><text x="70" y="5">卒</text><text x="140" y="5">卒</text><text x="210" y="5">卒</text><text x="280" y="5">卒</text></g>
       </g>
       <!-- Red soldiers, cannons and back rank -->
       <g transform="translate(15 203)">
         <use href="#redPiece" x="0"/><use href="#redPiece" x="70"/><use href="#redPiece" x="140"/><use href="#redPiece" x="210"/><use href="#redPiece" x="280"/>
-        <g fill="#8f3f35" font-family="serif" font-size="15" font-weight="700" text-anchor="middle"><text x="0" y="5">兵</text><text x="70" y="5">兵</text><text x="140" y="5">兵</text><text x="210" y="5">兵</text><text x="280" y="5">兵</text></g>
+        <g fill="#8f3f35" font-family="Noto Serif CJK SC, Noto Serif CJK TC, Songti SC, SimSun, serif" font-size="15" font-weight="700" text-anchor="middle"><text x="0" y="5">兵</text><text x="70" y="5">兵</text><text x="140" y="5">兵</text><text x="210" y="5">兵</text><text x="280" y="5">兵</text></g>
       </g>
       <g transform="translate(15 230)">
         <use href="#redPiece" x="35"/><use href="#redPiece" x="245"/>
-        <g fill="#8f3f35" font-family="serif" font-size="15" font-weight="700" text-anchor="middle"><text x="35" y="5">炮</text><text x="245" y="5">炮</text></g>
+        <g fill="#8f3f35" font-family="Noto Serif CJK SC, Noto Serif CJK TC, Songti SC, SimSun, serif" font-size="15" font-weight="700" text-anchor="middle"><text x="35" y="5">炮</text><text x="245" y="5">炮</text></g>
       </g>
       <g transform="translate(15 284)">
         <use href="#redPiece" x="0"/><use href="#redPiece" x="35"/><use href="#redPiece" x="70"/><use href="#redPiece" x="105"/><use href="#redPiece" x="140"/><use href="#redPiece" x="175"/><use href="#redPiece" x="210"/><use href="#redPiece" x="245"/><use href="#redPiece" x="280"/>
-        <g fill="#8f3f35" font-family="serif" font-size="15" font-weight="700" text-anchor="middle"><text x="0" y="5">俥</text><text x="35" y="5">傌</text><text x="70" y="5">相</text><text x="105" y="5">仕</text><text x="140" y="5">帥</text><text x="175" y="5">仕</text><text x="210" y="5">相</text><text x="245" y="5">傌</text><text x="280" y="5">俥</text></g>
+        <g fill="#8f3f35" font-family="Noto Serif CJK SC, Noto Serif CJK TC, Songti SC, SimSun, serif" font-size="15" font-weight="700" text-anchor="middle"><text x="0" y="5">俥</text><text x="35" y="5">傌</text><text x="70" y="5">相</text><text x="105" y="5">仕</text><text x="140" y="5">帥</text><text x="175" y="5">仕</text><text x="210" y="5">相</text><text x="245" y="5">傌</text><text x="280" y="5">俥</text></g>
       </g>
       <text x="155" y="326" text-anchor="middle" fill="#b9cbbb" font-family="monospace" font-size="10" letter-spacing="1.4">9 FILES · 10 RANKS · RIVER & PALACES</text>
     </g>
@@ -139,7 +139,7 @@
       <g>
         <path d="M12 22H36.5V46.5H12ZM61 22H85.5V46.5H61ZM110 22H134.5V46.5H110ZM159 22H183.5V46.5H159ZM36.5 46.5H61V71H36.5ZM85.5 46.5H110V71H85.5ZM134.5 46.5H159V71H134.5ZM183.5 46.5H208V71H183.5ZM12 71H36.5V95.5H12ZM61 71H85.5V95.5H61ZM110 71H134.5V95.5H110ZM159 71H183.5V95.5H159ZM36.5 95.5H61V120H36.5ZM85.5 95.5H110V120H85.5ZM134.5 95.5H159V120H134.5ZM183.5 95.5H208V120H183.5ZM12 120H36.5V144.5H12ZM61 120H85.5V144.5H61ZM110 120H134.5V144.5H110ZM159 120H183.5V144.5H159ZM36.5 144.5H61V169H36.5ZM85.5 144.5H110V169H85.5ZM134.5 144.5H159V169H134.5ZM183.5 144.5H208V169H183.5ZM12 169H36.5V193.5H12ZM61 169H85.5V193.5H61ZM110 169H134.5V193.5H110ZM159 169H183.5V193.5H159ZM36.5 193.5H61V218H36.5ZM85.5 193.5H110V218H85.5ZM134.5 193.5H159V218H134.5ZM183.5 193.5H208V218H183.5Z" fill="#33483b"/>
       </g>
-      <g font-family="DejaVu Sans, Segoe UI Symbol, serif" text-anchor="middle" dominant-baseline="central">
+      <g font-family="DejaVu Sans, Noto Sans Symbols 2, Segoe UI Symbol, Apple Symbols, serif" text-anchor="middle" dominant-baseline="central">
         <g fill="#25382d" stroke="#f3dfb8" stroke-width="1.4" paint-order="stroke" font-size="21">
           <text x="24.25" y="34">♜</text><text x="48.75" y="34">♞</text><text x="73.25" y="34">♝</text><text x="97.75" y="34">♛</text><text x="122.25" y="34">♚</text><text x="146.75" y="34">♝</text><text x="171.25" y="34">♞</text><text x="195.75" y="34">♜</text>
           <text x="24.25" y="58.5">♟</text><text x="48.75" y="58.5">♟</text><text x="73.25" y="58.5">♟</text><text x="97.75" y="58.5">♟</text><text x="122.25" y="58.5">♟</text><text x="146.75" y="58.5">♟</text><text x="171.25" y="58.5">♟</text><text x="195.75" y="58.5">♟</text>
