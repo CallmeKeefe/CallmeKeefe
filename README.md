@@ -38,25 +38,16 @@ I prefer projects that can be inspected rather than described with inflated clai
 ### Workbench / terminal session
 
 ```text
-        ╔══════════════════════════════════════════════════════════════════════╗
-       ╱  KEEFE WORKBENCH                                      SESSION 001   ╱│
-      ╱══════════════════════════════════════════════════════════════════════╱ │
-      │  $ whoami                                                            │ │
-      │  independent developer / curious systems builder                    │ │
-      │                                                                      │ │
-      │  $ ls ./domains                                                      │ │
-      │  ai-evaluation/   model-lab/      software/                          │ │
-      │  audio/           mathematics/    systems/                           │ │
-      │  open-source/     experiments/    strategy-games/                    │ │
-      │                                                                      │ │
-      │  $ pipeline --run                                                   │ │
-      │  [01] define       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  done         │ │
-      │  [02] prototype    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  iterate      │ │
-      │  [03] test         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  inspect      │ │
-      │  [04] document     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  improve      │ │
-      │                                                                      │ ╱
-      ╚══════════════════════════════════════════════════════════════════════╝╱
-        └── build  →  test  →  inspect  →  document  →  improve ────────────┘
+keefe@workstation:~/projects$ git status --short
+ M README.md
+?? tests/edge-cases.md
+
+keefe@workstation:~/projects$ pytest -q
+..............................
+30 passed
+
+keefe@workstation:~/projects$ git diff --check
+# inspect the diff before committing
 ```
 
 ---
