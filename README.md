@@ -4,7 +4,7 @@
 -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CallmeKeefe/CallmeKeefe/main/assets/profile-header.svg" alt="Deep-jade terminal workbench with Xiangqi and chess boards" width="100%" />
+  <img src="https://raw.githubusercontent.com/CallmeKeefe/CallmeKeefe/main/assets/profile-header.svg" alt="Deep Jade 3D terminal workbench with correctly arranged Xiangqi and chess starting boards" width="100%" />
 </p>
 
 <h1 align="center">Steven Keefe</h1>
@@ -32,23 +32,41 @@ I prefer projects that can be inspected rather than described with inflated clai
 - Can a visual interface be expressive without sacrificing clarity or accessibility?
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CallmeKeefe/CallmeKeefe/main/assets/terminal-stage.svg" alt="Isometric engineering terminal with build, test and improve stages" width="100%" />
+  <img src="https://raw.githubusercontent.com/CallmeKeefe/CallmeKeefe/main/assets/terminal-stage.svg" alt="Deep Jade isometric engineering console with terminal commands and a 3D desk platform" width="100%" />
 </p>
 
 ### Workbench / terminal session
 
 ```text
-keefe@workstation:~/projects$ git status --short
- M README.md
-?? tests/edge-cases.md
+┌─ KEEFE / DEEP-JADE WORKBENCH ───────────────────────────────────────┐
+│                                                                    │
+│   ╔══════════════════════════════════════════════════════════╗     │
+│   ║  $ git status --short                                    ║     │
+│   ║   M README.md                                             ║     │
+│   ║   M assets/profile-header.svg                             ║     │
+│   ║                                                          ║     │
+│   ║  $ pytest -q                                              ║     │
+│   ║   tests ......................... passed                  ║     │
+│   ║                                                          ║     │
+│   ║  $ git diff --check                                       ║     │
+│   ║   clean                                                   ║     │
+│   ╚══════════════════════════════════════════════════════════╝     │
+│                                                                    │
+│       ______________________________                               │
+│      /_____________________________/|                              │
+│     |  CODE  |  TEST  |  REVIEW    | |                              │
+│     |________|________|____________|/                               │
+│                                                                    │
+│   [XIANGQI]  ───────────────  [CHESS]                               │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
 
-keefe@workstation:~/projects$ pytest -q
-..............................
-30 passed
-
-keefe@workstation:~/projects$ git diff --check
-# inspect the diff before committing
+      /_/\\
+     ( o.o )     BUILD WITH INTENT.
+      > ^ <      VERIFY WITH EVIDENCE.
 ```
+
+The terminal transcript above is illustrative artwork, not a live build report.
 
 ---
 
@@ -57,7 +75,7 @@ keefe@workstation:~/projects$ git diff --check
 A map of the main areas I build in:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CallmeKeefe/CallmeKeefe/main/assets/project-map.svg" alt="Six connected project areas: trace diagnostics, audio, math tools, reasoning research, model development, and systems engineering" width="100%" />
+  <img src="https://raw.githubusercontent.com/CallmeKeefe/CallmeKeefe/main/assets/project-map.svg" alt="Isometric Deep Jade project atlas connecting six engineering areas" width="100%" />
 </p>
 
 ## Public projects
@@ -186,7 +204,7 @@ An experimental Qwen2/Qwen2.5-based model-development series. Published checkpoi
 - **Iterate deliberately.** Treat failures as information about the next experiment.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CallmeKeefe/CallmeKeefe/main/assets/terminal-divider.svg" alt="Terminal prompt divider" width="100%" />
+  <img src="https://raw.githubusercontent.com/CallmeKeefe/CallmeKeefe/main/assets/terminal-divider.svg" alt="Deep Jade isometric terminal prompt divider" width="100%" />
 </p>
 
 <p align="center">
