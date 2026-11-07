@@ -1,36 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
-<title id="title">Keefe — software and AI systems</title>
-<desc id="desc">A dark editorial banner with a quiet grid, strategy-board geometry, and the name Keefe.</desc>
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101b1b"/><stop offset="1" stop-color="#182522"/></linearGradient>
-  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a7d7bf" stop-opacity=".18"/><stop offset="1" stop-color="#d98b68" stop-opacity=".02"/></linearGradient>
-  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#b8c9bd" stroke-opacity=".08" stroke-width="1"/></pattern>
-</defs>
-<rect width="1200" height="330" rx="18" fill="url(#bg)"/>
-<rect width="1200" height="330" rx="18" fill="url(#grid)"/>
-<path d="M0 250C190 190 330 340 560 270S950 150 1200 210V330H0Z" fill="url(#glow)"/>
-<path d="M0 284H1200" stroke="#b8c9bd" stroke-opacity=".18"/>
-<g fill="#a7d7bf" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="2">
-<text x="68" y="62">INDEPENDENT BUILDER  /  OPEN SOURCE</text>
-<text x="68" y="282" fill="#d98b68">AI SYSTEMS</text><text x="205" y="282" fill="#71847b">·</text><text x="225" y="282">SOFTWARE ENGINEERING</text><text x="470" y="282" fill="#71847b">·</text><text x="490" y="282">STRATEGY</text>
-</g>
-<text x="64" y="166" fill="#f0f0e8" font-family="Georgia,Times New Roman,serif" font-size="88" letter-spacing="-3">KEEFE</text>
-<text x="70" y="211" fill="#c4d0c6" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" letter-spacing="1">Building, testing, and questioning intelligent systems.</text>
-<g transform="translate(790 35)" opacity=".92">
-  <rect x="0" y="0" width="330" height="250" rx="8" fill="#0c1515" fill-opacity=".35" stroke="#a7d7bf" stroke-opacity=".25"/>
-  <g stroke="#a7d7bf" stroke-opacity=".35" stroke-width="1.3">
-    <path d="M28 28V222M62 28V222M96 28V222M130 28V222M164 28V222M198 28V222M232 28V222M266 28V222M300 28V222"/>
-    <path d="M28 28H300M28 56H300M28 84H300M28 112H300M28 140H300M28 168H300M28 196H300M28 222H300"/>
-    <path d="M28 112L164 28M164 28L300 112M28 140L164 222M164 222L300 140" stroke="#d98b68" stroke-opacity=".5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Strategy board and terminal-inspired geometric artwork</title>
+  <desc id="desc">A restrained dark green composition combining a command-line cursor, a Chinese chess grid, and a Western chessboard.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101a17"/>
+      <stop offset="1" stop-color="#1a2923"/>
+    </linearGradient>
+    <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".45" fill="#e6eee5" opacity=".12"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1200" height="300" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="300" fill="url(#base)"/>
+    <rect width="1200" height="300" fill="url(#grain)" opacity=".22"/>
+    <path d="M0 248C210 190 360 330 590 265S980 180 1200 222V300H0Z" fill="#243a30" opacity=".52"/>
+    <path d="M0 34H1200M0 266H1200" stroke="#b8c9bb" stroke-opacity=".12"/>
+    <g transform="translate(72 76)">
+      <rect x="0" y="0" width="450" height="146" rx="10" fill="#0a1210" fill-opacity=".62" stroke="#a9c6b2" stroke-opacity=".26"/>
+      <path d="M0 34H450" stroke="#a9c6b2" stroke-opacity=".2"/>
+      <circle cx="20" cy="17" r="4" fill="#c77c62"/>
+      <circle cx="36" cy="17" r="4" fill="#d6b77d"/>
+      <circle cx="52" cy="17" r="4" fill="#9bb99f"/>
+      <path d="M28 77L43 89L28 101M57 101H82" fill="none" stroke="#d9e5d9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="91" y="89" width="8" height="18" rx="1" fill="#c77c62"/>
+      <path d="M28 122H170" stroke="#a9c6b2" stroke-opacity=".24" stroke-width="2"/>
+      <path d="M190 122H285" stroke="#a9c6b2" stroke-opacity=".12" stroke-width="2"/>
+    </g>
+    <g transform="translate(640 32)" opacity=".82">
+      <rect x="0" y="0" width="276" height="236" rx="7" fill="#0d1714" fill-opacity=".3" stroke="#a9c6b2" stroke-opacity=".22"/>
+      <g stroke="#a9c6b2" stroke-opacity=".45" stroke-width="1.2">
+        <path d="M24 18V218M52 18V218M80 18V218M108 18V218M136 18V218M164 18V218M192 18V218M220 18V218M248 18V218"/>
+        <path d="M24 18H248M24 40H248M24 62H248M24 84H248M24 106H248M24 128H248M24 150H248M24 172H248M24 194H248M24 218H248"/>
+        <path d="M24 106H248M24 128H248" stroke="#c77c62" stroke-opacity=".68" stroke-width="2"/>
+      </g>
+      <g fill="#172821" stroke="#d5e2d5" stroke-width="1.6">
+        <circle cx="52" cy="40" r="11"/><circle cx="136" cy="40" r="11"/><circle cx="220" cy="40" r="11"/>
+        <circle cx="80" cy="172" r="11"/><circle cx="192" cy="172" r="11"/>
+      </g>
+      <g fill="#dce8dc" font-family="Georgia,serif" font-size="12" text-anchor="middle">
+        <text x="52" y="44">車</text><text x="136" y="44">將</text><text x="220" y="44">馬</text><text x="80" y="176">炮</text><text x="192" y="176">卒</text>
+      </g>
+    </g>
+    <g transform="translate(955 52)" opacity=".9">
+      <rect x="0" y="0" width="190" height="190" rx="5" fill="#d8dfd3"/>
+      <g>
+        <path d="M0 0H23.75V23.75H0ZM47.5 0H71.25V23.75H47.5ZM95 0H118.75V23.75H95ZM142.5 0H166.25V23.75H142.5ZM23.75 23.75H47.5V47.5H23.75ZM71.25 23.75H95V47.5H71.25ZM118.75 23.75H142.5V47.5H118.75ZM166.25 23.75H190V47.5H166.25ZM0 47.5H23.75V71.25H0ZM47.5 47.5H71.25V71.25H47.5ZM95 47.5H118.75V71.25H95ZM142.5 47.5H166.25V71.25H142.5ZM23.75 71.25H47.5V95H23.75ZM71.25 71.25H95V95H71.25ZM118.75 71.25H142.5V95H118.75ZM166.25 71.25H190V95H166.25ZM0 95H23.75V118.75H0ZM47.5 95H71.25V118.75H47.5ZM95 95H118.75V118.75H95ZM142.5 95H166.25V118.75H142.5ZM23.75 118.75H47.5V142.5H23.75ZM71.25 118.75H95V142.5H71.25ZM118.75 118.75H142.5V142.5H118.75ZM166.25 118.75H190V142.5H166.25ZM0 142.5H23.75V166.25H0ZM47.5 142.5H71.25V166.25H47.5ZM95 142.5H118.75V166.25H95ZM142.5 142.5H166.25V166.25H142.5ZM23.75 166.25H47.5V190H23.75ZM71.25 166.25H95V190H71.25ZM118.75 166.25H142.5V190H118.75ZM166.25 166.25H190V190H166.25Z" fill="#20352b"/>
+      </g>
+      <path d="M11 11H179V179H11Z" fill="none" stroke="#c77c62" stroke-width="2" opacity=".8"/>
+      <circle cx="95" cy="95" r="13" fill="#c77c62" stroke="#20352b" stroke-width="2"/>
+      <path d="M90 99L95 84L101 99L95 96Z" fill="#f2e8d8"/>
+    </g>
+    <g fill="#a9c6b2" opacity=".55">
+      <circle cx="570" cy="78" r="2"/><circle cx="588" cy="78" r="2"/><circle cx="606" cy="78" r="2"/>
+      <path d="M570 218H605" stroke="#a9c6b2" stroke-width="2"/>
+    </g>
   </g>
-  <g fill="#172523" stroke="#a7d7bf" stroke-width="2">
-    <circle cx="62" cy="56" r="15"/><circle cx="164" cy="56" r="15"/><circle cx="266" cy="56" r="15"/>
-    <circle cx="96" cy="168" r="15"/><circle cx="232" cy="168" r="15"/>
-  </g>
-  <g fill="#f0f0e8" font-family="Georgia,serif" font-size="17" text-anchor="middle">
-    <text x="62" y="62">車</text><text x="164" y="62">將</text><text x="266" y="62">馬</text><text x="96" y="174">炮</text><text x="232" y="174">卒</text>
-  </g>
-  <g fill="#d98b68"><circle cx="164" cy="140" r="5"/><circle cx="130" cy="196" r="5"/><circle cx="198" cy="196" r="5"/></g>
-</g>
-<text x="1120" y="306" fill="#91a69a" font-family="ui-monospace,monospace" font-size="10" text-anchor="end" letter-spacing="2">POSITION  /  PROCESS  /  PROOF</text>
 </svg>
