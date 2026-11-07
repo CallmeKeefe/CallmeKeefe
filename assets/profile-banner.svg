@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+  <title id="title">Steven Keefe — Software Developer and AI/ML Builder</title>
+  <desc id="desc">A dark, minimal abstract banner with geometric lines and a cyan accent.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#111d31"/>
+      <stop offset="1" stop-color="#17283a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#66e3d1"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#8ba2b9" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="310" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="310" rx="22" fill="url(#grid)"/>
+  <circle cx="1040" cy="110" r="190" fill="none" stroke="#79a9c8" stroke-opacity=".12" stroke-width="1.5"/>
+  <circle cx="1040" cy="110" r="140" fill="none" stroke="#79a9c8" stroke-opacity=".16" stroke-width="1.5"/>
+  <circle cx="1040" cy="110" r="88" fill="none" stroke="#79a9c8" stroke-opacity=".18" stroke-width="1.5"/>
+  <path d="M845 310L1120 -5M935 310L1210 0" stroke="url(#accent)" stroke-opacity=".28" stroke-width="2"/>
+  <path d="M0 260H1200" stroke="#9db4c9" stroke-opacity=".14"/>
+  <rect x="70" y="62" width="5" height="170" rx="2.5" fill="url(#accent)"/>
+  <text x="104" y="122" fill="#f4f7fb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="700" letter-spacing="1.5">STEVEN KEEFE</text>
+  <text x="106" y="164" fill="#c4d2e0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500">SOFTWARE DEVELOPER  /  AI &amp; ML BUILDER</text>
+  <text x="106" y="204" fill="#8fa8bf" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="2.2">RESEARCH  ·  ENGINEERING  ·  OPEN SOURCE</text>
+  <rect x="106" y="234" width="118" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="1108" y="270" text-anchor="end" fill="#9eb3c6" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing="1.5">CALLMEKEEFE / 01</text>
+</svg>
