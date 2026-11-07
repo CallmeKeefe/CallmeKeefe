@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Keefe terminal workspace</title>
+  <desc id="desc">An isometric three-dimensional terminal console with layered dimensional lettering and a compact ASCII project map.</desc>
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1210"/><stop offset=".55" stop-color="#172a22"/><stop offset="1" stop-color="#263e31"/></linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#395848"/><stop offset="1" stop-color="#1c3328"/></linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1a2b23"/><stop offset="1" stop-color="#0c1712"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff1cb"/><stop offset=".45" stop-color="#e2c38b"/><stop offset="1" stop-color="#a77b4d"/></linearGradient>
+    <linearGradient id="jade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8d5bd"/><stop offset="1" stop-color="#6d9b7d"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#a7c4ad" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1200" height="390" rx="20" fill="url(#back)"/>
+  <rect width="1200" height="390" rx="20" fill="url(#grid)"/>
+  <path d="M35 326L830 326L1148 190" fill="none" stroke="#8eae96" stroke-opacity=".17"/>
+  <path d="M62 45H1138" stroke="#9db9a2" stroke-opacity=".22"/>
+  <text x="66" y="75" fill="#a8c5ae" font-family="monospace" font-size="12" letter-spacing="3">KEEFE / WORKSPACE VIEW 01</text>
+  <text x="1135" y="75" fill="#d4b77f" font-family="monospace" font-size="11" text-anchor="end" letter-spacing="2">BUILD · MEASURE · REFINE</text>
+  <!-- Isometric console body -->
+  <path d="M95 135L795 135L1085 250L385 250Z" fill="#07100c" stroke="#71947c" stroke-width="2"/>
+  <path d="M95 135L385 250V286L95 170Z" fill="#14251c" stroke="#5f8069" stroke-width="1.5"/>
+  <path d="M385 250L1085 250V286L385 286Z" fill="#0a1510" stroke="#5f8069" stroke-width="1.5"/>
+  <path d="M795 135L1085 250V286L795 170Z" fill="#1d3428" stroke="#5f8069" stroke-width="1.5"/>
+  <path d="M95 135L795 135L1085 250L385 250Z" fill="url(#top)" stroke="#a5c2aa" stroke-opacity=".8" stroke-width="2"/>
+  <path d="M117 143L790 143L1058 248L385 248Z" fill="url(#face)" stroke="#8eaa94" stroke-opacity=".45"/>
+  <path d="M128 153L780 153L1036 245L384 245Z" fill="#0c1712" stroke="#587763" stroke-opacity=".55"/>
+  <!-- Terminal title -->
+  <text x="162" y="196" fill="#6b5238" font-family="Arial,sans-serif" font-size="48" font-weight="800" letter-spacing="1">STEVEN KEEFE</text>
+  <text x="158" y="188" fill="url(#gold)" font-family="Arial,sans-serif" font-size="48" font-weight="800" letter-spacing="1">STEVEN KEEFE</text>
+  <path d="M160 210H675" stroke="#8fac95" stroke-opacity=".35"/>
+  <text x="162" y="236" fill="#b6d2bc" font-family="monospace" font-size="15">$ explore ./ideas  --build  --verify</text>
+  <!-- ASCII-style project map -->
+  <g transform="translate(730 170)" font-family="monospace" font-size="12">
+    <text x="0" y="0" fill="#d8bd87">+------------------------------+</text>
+    <text x="0" y="19" fill="#d8bd87">|</text><text x="15" y="19" fill="#dce8dc">AI / DATA / SYSTEMS</text><text x="221" y="19" fill="#d8bd87">|</text>
+    <text x="0" y="38" fill="#d8bd87">|</text><text x="15" y="38" fill="#9ec9a9">models  ·  tools  ·  research</text><text x="221" y="38" fill="#d8bd87">|</text>
+    <text x="0" y="57" fill="#d8bd87">|</text><text x="15" y="57" fill="#9ec9a9">web apps · kernels · media</text><text x="221" y="57" fill="#d8bd87">|</text>
+    <text x="0" y="76" fill="#d8bd87">+------------------------------+</text>
+  </g>
+  <!-- Physical controls and front bevel -->
+  <circle cx="421" cy="268" r="4" fill="#d2b57b"/>
+  <circle cx="440" cy="268" r="4" fill="#85b18f"/>
+  <circle cx="459" cy="268" r="4" fill="#bb7961"/>
+  <path d="M505 268H705" stroke="#6f8f78" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M520 280H690" stroke="#d2b57b" stroke-opacity=".28"/>
+  <text x="1100" y="320" fill="#92ad98" font-family="monospace" font-size="10" text-anchor="end" letter-spacing="2">A PERSONAL ENGINEERING LOG</text>
+  <path d="M65 350H1135" stroke="#a0bda6" stroke-opacity=".22"/>
+  <text x="66" y="372" fill="#a9c4ad" font-family="monospace" font-size="10" letter-spacing="1.5">CURIOSITY IN / WORKING SOFTWARE OUT</text>
+</svg>
