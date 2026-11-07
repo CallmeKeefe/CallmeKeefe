@@ -51,6 +51,34 @@
     <g id="redPiece">
       <circle r="15" fill="#f0dfbd" stroke="#a64e3e" stroke-width="2.1"/>
       <circle r="11.4" fill="none" stroke="#a64e3e" stroke-opacity=".6"/>
+      <path d="M-7 0H7M0-7V7" stroke="#a64e3e" stroke-width="1" opacity=".18"/>
+    </g>
+    <!-- Chessmen are drawn as paths, not font glyphs, for consistent rendering. -->
+    <g id="chess-rook">
+      <path d="M-8 9H8L6 6V2H8V-4H4V-1H1V-7H-1V-1H-4V-4H-8V2H-6V6Z" />
+      <path d="M-5 4H5M-7 10H7" fill="none" stroke="currentColor" stroke-width="1.2"/>
+    </g>
+    <g id="chess-knight">
+      <path d="M-8 9H8L6 6L4 2L7-3L4-8L0-6L-4-8L-7-4L-4-1L-7 4Z"/>
+      <path d="M0-4L2-3M-5 10H5" fill="none" stroke="currentColor" stroke-width="1.2"/>
+    </g>
+    <g id="chess-bishop">
+      <path d="M0-9C-2-6-7-3-6 1C-6 4-3 5-3 7H3C3 5 6 4 6 1C7-3 2-6 0-9Z"/>
+      <path d="M-1-6L2-2M-5 4H5M-7 10H7" fill="none" stroke="currentColor" stroke-width="1.2"/>
+    </g>
+    <g id="chess-queen">
+      <path d="M-8 8H8L6 3L8-4L3-1L0-8L-3-1L-8-4L-6 3Z"/>
+      <circle cx="-8" cy="-5" r="1.5"/><circle cx="0" cy="-10" r="1.5"/><circle cx="8" cy="-5" r="1.5"/>
+      <path d="M-5 5H5M-8 10H8" fill="none" stroke="currentColor" stroke-width="1.2"/>
+    </g>
+    <g id="chess-king">
+      <path d="M-7 8H7L5 3H3V-3H-3V3H-5Z"/>
+      <path d="M0-10V-3M-3.5-6.5H3.5M-5 5H5M-8 10H8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+    <g id="chess-pawn">
+      <circle cx="0" cy="-5" r="3.2"/>
+      <path d="M-2.5-1.5L-5 5H5L2.5-1.5Z"/>
+      <path d="M-6 7H6L8 10H-8Z" />
     </g>
   </defs>
   <g clip-path="url(#clip)">
@@ -134,19 +162,23 @@
     <!-- Western chess board, standard initial position -->
     <g transform="translate(1100 110)">
       <rect x="-15" y="-18" width="250" height="250" rx="13" fill="url(#panel)" stroke="#829b88" stroke-opacity=".45" filter="url(#shadow)"/>
-      <text x="110" y="4" fill="#d7b77b" font-family="monospace" font-size="12" text-anchor="middle" letter-spacing="2">CHESS / ♟</text>
+      <text x="110" y="4" fill="#d7b77b" font-family="monospace" font-size="12" text-anchor="middle" letter-spacing="2">CHESS / 01–64</text>
       <rect x="12" y="22" width="196" height="196" fill="#d9c7a6" stroke="#9c805d" stroke-width="2"/>
       <g>
         <path d="M12 22H36.5V46.5H12ZM61 22H85.5V46.5H61ZM110 22H134.5V46.5H110ZM159 22H183.5V46.5H159ZM36.5 46.5H61V71H36.5ZM85.5 46.5H110V71H85.5ZM134.5 46.5H159V71H134.5ZM183.5 46.5H208V71H183.5ZM12 71H36.5V95.5H12ZM61 71H85.5V95.5H61ZM110 71H134.5V95.5H110ZM159 71H183.5V95.5H159ZM36.5 95.5H61V120H36.5ZM85.5 95.5H110V120H85.5ZM134.5 95.5H159V120H134.5ZM183.5 95.5H208V120H183.5ZM12 120H36.5V144.5H12ZM61 120H85.5V144.5H61ZM110 120H134.5V144.5H110ZM159 120H183.5V144.5H159ZM36.5 144.5H61V169H36.5ZM85.5 144.5H110V169H85.5ZM134.5 144.5H159V169H134.5ZM183.5 144.5H208V169H183.5ZM12 169H36.5V193.5H12ZM61 169H85.5V193.5H61ZM110 169H134.5V193.5H110ZM159 169H183.5V193.5H159ZM36.5 193.5H61V218H36.5ZM85.5 193.5H110V218H85.5ZM134.5 193.5H159V218H134.5ZM183.5 193.5H208V218H183.5Z" fill="#33483b"/>
       </g>
-      <g font-family="DejaVu Sans, Noto Sans Symbols 2, Segoe UI Symbol, Apple Symbols, serif" text-anchor="middle" dominant-baseline="central">
-        <g fill="#25382d" stroke="#f3dfb8" stroke-width="1.4" paint-order="stroke" font-size="21">
-          <text x="24.25" y="34">♜</text><text x="48.75" y="34">♞</text><text x="73.25" y="34">♝</text><text x="97.75" y="34">♛</text><text x="122.25" y="34">♚</text><text x="146.75" y="34">♝</text><text x="171.25" y="34">♞</text><text x="195.75" y="34">♜</text>
-          <text x="24.25" y="58.5">♟</text><text x="48.75" y="58.5">♟</text><text x="73.25" y="58.5">♟</text><text x="97.75" y="58.5">♟</text><text x="122.25" y="58.5">♟</text><text x="146.75" y="58.5">♟</text><text x="171.25" y="58.5">♟</text><text x="195.75" y="58.5">♟</text>
+      <g transform="translate(24.25 34)" color="#f9f4e8" fill="#25382d" stroke="#25382d" stroke-width=".8">
+        <g transform="translate(0 0)" fill="#26392e" stroke="#f2dfba">
+          <use href="#chess-rook" x="0"/><use href="#chess-knight" x="24.5"/><use href="#chess-bishop" x="49"/><use href="#chess-queen" x="73.5"/><use href="#chess-king" x="98"/><use href="#chess-bishop" x="122.5"/><use href="#chess-knight" x="147"/><use href="#chess-rook" x="171.5"/>
         </g>
-        <g fill="#fffdf3" stroke="#24342b" stroke-width="1.2" paint-order="stroke" font-size="21">
-          <text x="24.25" y="181.25">♙</text><text x="48.75" y="181.25">♙</text><text x="73.25" y="181.25">♙</text><text x="97.75" y="181.25">♙</text><text x="122.25" y="181.25">♙</text><text x="146.75" y="181.25">♙</text><text x="171.25" y="181.25">♙</text><text x="195.75" y="181.25">♙</text>
-          <text x="24.25" y="205.75">♖</text><text x="48.75" y="205.75">♘</text><text x="73.25" y="205.75">♗</text><text x="97.75" y="205.75">♕</text><text x="122.25" y="205.75">♔</text><text x="146.75" y="205.75">♗</text><text x="171.25" y="205.75">♘</text><text x="195.75" y="205.75">♖</text>
+        <g transform="translate(0 24.5)" fill="#26392e" stroke="#f2dfba">
+          <use href="#chess-pawn" x="0"/><use href="#chess-pawn" x="24.5"/><use href="#chess-pawn" x="49"/><use href="#chess-pawn" x="73.5"/><use href="#chess-pawn" x="98"/><use href="#chess-pawn" x="122.5"/><use href="#chess-pawn" x="147"/><use href="#chess-pawn" x="171.5"/>
+        </g>
+        <g transform="translate(0 147.25)" fill="#fffdf3" stroke="#24342b">
+          <use href="#chess-pawn" x="0"/><use href="#chess-pawn" x="24.5"/><use href="#chess-pawn" x="49"/><use href="#chess-pawn" x="73.5"/><use href="#chess-pawn" x="98"/><use href="#chess-pawn" x="122.5"/><use href="#chess-pawn" x="147"/><use href="#chess-pawn" x="171.5"/>
+        </g>
+        <g transform="translate(0 171.75)" fill="#fffdf3" stroke="#24342b">
+          <use href="#chess-rook" x="0"/><use href="#chess-knight" x="24.5"/><use href="#chess-bishop" x="49"/><use href="#chess-queen" x="73.5"/><use href="#chess-king" x="98"/><use href="#chess-bishop" x="122.5"/><use href="#chess-knight" x="147"/><use href="#chess-rook" x="171.5"/>
         </g>
       </g>
       <text x="110" y="250" text-anchor="middle" fill="#b9cbbb" font-family="monospace" font-size="10" letter-spacing="1.2">STANDARD START POSITION</text>
