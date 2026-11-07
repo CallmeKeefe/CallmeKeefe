@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+<title id="title">Keefe — software and AI systems</title>
+<desc id="desc">A dark editorial banner with a quiet grid, strategy-board geometry, and the name Keefe.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101b1b"/><stop offset="1" stop-color="#182522"/></linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a7d7bf" stop-opacity=".18"/><stop offset="1" stop-color="#d98b68" stop-opacity=".02"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#b8c9bd" stroke-opacity=".08" stroke-width="1"/></pattern>
+</defs>
+<rect width="1200" height="330" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="330" rx="18" fill="url(#grid)"/>
+<path d="M0 250C190 190 330 340 560 270S950 150 1200 210V330H0Z" fill="url(#glow)"/>
+<path d="M0 284H1200" stroke="#b8c9bd" stroke-opacity=".18"/>
+<g fill="#a7d7bf" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="2">
+<text x="68" y="62">INDEPENDENT BUILDER  /  OPEN SOURCE</text>
+<text x="68" y="282" fill="#d98b68">AI SYSTEMS</text><text x="205" y="282" fill="#71847b">·</text><text x="225" y="282">SOFTWARE ENGINEERING</text><text x="470" y="282" fill="#71847b">·</text><text x="490" y="282">STRATEGY</text>
+</g>
+<text x="64" y="166" fill="#f0f0e8" font-family="Georgia,Times New Roman,serif" font-size="88" letter-spacing="-3">KEEFE</text>
+<text x="70" y="211" fill="#c4d0c6" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" letter-spacing="1">Building, testing, and questioning intelligent systems.</text>
+<g transform="translate(790 35)" opacity=".92">
+  <rect x="0" y="0" width="330" height="250" rx="8" fill="#0c1515" fill-opacity=".35" stroke="#a7d7bf" stroke-opacity=".25"/>
+  <g stroke="#a7d7bf" stroke-opacity=".35" stroke-width="1.3">
+    <path d="M28 28V222M62 28V222M96 28V222M130 28V222M164 28V222M198 28V222M232 28V222M266 28V222M300 28V222"/>
+    <path d="M28 28H300M28 56H300M28 84H300M28 112H300M28 140H300M28 168H300M28 196H300M28 222H300"/>
+    <path d="M28 112L164 28M164 28L300 112M28 140L164 222M164 222L300 140" stroke="#d98b68" stroke-opacity=".5"/>
+  </g>
+  <g fill="#172523" stroke="#a7d7bf" stroke-width="2">
+    <circle cx="62" cy="56" r="15"/><circle cx="164" cy="56" r="15"/><circle cx="266" cy="56" r="15"/>
+    <circle cx="96" cy="168" r="15"/><circle cx="232" cy="168" r="15"/>
+  </g>
+  <g fill="#f0f0e8" font-family="Georgia,serif" font-size="17" text-anchor="middle">
+    <text x="62" y="62">車</text><text x="164" y="62">將</text><text x="266" y="62">馬</text><text x="96" y="174">炮</text><text x="232" y="174">卒</text>
+  </g>
+  <g fill="#d98b68"><circle cx="164" cy="140" r="5"/><circle cx="130" cy="196" r="5"/><circle cx="198" cy="196" r="5"/></g>
+</g>
+<text x="1120" y="306" fill="#91a69a" font-family="ui-monospace,monospace" font-size="10" text-anchor="end" letter-spacing="2">POSITION  /  PROCESS  /  PROOF</text>
+</svg>
