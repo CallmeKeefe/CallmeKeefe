@@ -111,9 +111,9 @@ Some projects have public demos or documentation while their source repositories
 
 | Project | What it explores | Public entry point / source status |
 |:--|:--|:--|
-| **Personal Website** | Multilingual portfolio, responsive project pages, WebGL/3D experiments, audio and optional AI visitor interactions | [Live portfolio](https://keefe.is-a.dev) · source private |
-| **VoxShift** | Transcription, translation, transcript management, audio tools, and the separate Keefe Omni Audire provider service | [Live app](https://vox-shift.vercel.app/) · source private |
-| **Keefe Calculator** | Scientific calculation, graphing, unit conversion, reference tools, history, PWA support, and optional cloud/AI features | [Live app](https://keefe-calculator.vercel.app/) · source private |
+| **Personal Website** | Multilingual portfolio, responsive project pages, WebGL/3D experiments, audio and optional AI visitor interactions | [Live portfolio](https://keefe.is-a.dev) · [private source](https://github.com/CallmeKeefe/Personal-Website) |
+| **VoxShift** | Transcription, translation, transcript management, audio tools, and the separate Keefe Omni Audire provider service | [Live app](https://vox-shift.vercel.app/) · [private source](https://github.com/CallmeKeefe/Vox-Shift) |
+| **Keefe Calculator** | Scientific calculation, graphing, unit conversion, reference tools, history, PWA support, and optional cloud/AI features | [Live app](https://keefe-calculator.vercel.app/) · [private source](https://github.com/CallmeKeefe/Keefe-Calculator) |
 | **Keefe AI** | Experimental multi-provider AI workspace with project-oriented workflows and optional integrations | [Repository](https://github.com/CallmeKeefe/Keefe-AI) · private |
 | **Universal Video Studio** | Remotion-based video authoring and a local production workflow for jobs, scheduling, research, rendering, and quality checks | [Repository](https://github.com/CallmeKeefe/universal-video-studio) · private |
 | **Security & Privacy Tools** | Experimental Python tools for privacy education, digital provenance, and authorized defensive assessment | [Repository](https://github.com/CallmeKeefe/Security) · private; not production-approved |
