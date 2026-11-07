@@ -1,37 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="390" viewBox="0 0 1400 390" role="img" aria-labelledby="title desc">
-  <title id="title">Keefe workbench — isometric terminal</title>
-  <desc id="desc">A three-dimensional perspective terminal console showing a build, test, inspect workflow.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1210"/><stop offset="1" stop-color="#1c3028"/></linearGradient>
-    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a2d24"/><stop offset="1" stop-color="#0b1511"/></linearGradient>
-  </defs>
-  <rect width="1400" height="390" rx="22" fill="url(#bg)"/>
-  <path d="M0 315L1400 235V390H0Z" fill="#284538" opacity=".22"/>
-  <path d="M45 48H1355M45 342H1355" stroke="#9bb7a0" stroke-opacity=".18"/>
-  <g transform="translate(90 30)">
-    <path d="M70 280L650 280L760 218L180 218Z" fill="#07100d" stroke="#668574" stroke-width="2"/>
-    <path d="M650 280L760 218V240L650 304Z" fill="#0a1510" stroke="#668574" stroke-opacity=".65"/>
-    <path d="M70 280L650 280V304L70 304Z" fill="#101d16" stroke="#668574" stroke-opacity=".65"/>
-    <path d="M70 270L180 205L760 205L650 270Z" fill="#23392e" stroke="#8ba993" stroke-width="2"/>
-    <path d="M180 205L760 205V218L180 218Z" fill="#405d4b"/>
-    <path d="M110 30L620 30L720 88L210 88Z" fill="#334b3d" stroke="#9db8a2" stroke-width="2"/>
-    <path d="M110 30L210 88V250L110 192Z" fill="#0a1510" stroke="#718d7a" stroke-width="2"/>
-    <path d="M210 88L720 88V250L210 250Z" fill="url(#screen)" stroke="#718d7a" stroke-width="2"/>
-    <path d="M110 192L210 250L720 250L620 192Z" fill="#17271e" stroke="#718d7a" stroke-width="2"/>
-    <path d="M110 30L620 30L720 88L210 88Z" fill="#243a2e" stroke="#9db8a2" stroke-width="2"/>
-    <circle cx="149" cy="51" r="5" fill="#c77c62"/><circle cx="169" cy="63" r="5" fill="#d7b77b"/><circle cx="189" cy="75" r="5" fill="#8fb69a"/>
-    <text x="245" y="66" fill="#c2d2c3" font-family="monospace" font-size="15" letter-spacing="2">KEEFE / DEV TERMINAL</text>
-    <text x="245" y="126" fill="#d7b77b" font-family="monospace" font-size="13" letter-spacing="2">SESSION / 001</text>
-    <text x="245" y="159" fill="#9ac5a5" font-family="monospace" font-size="18">$</text><text x="270" y="159" fill="#f1f0e5" font-family="monospace" font-size="18">build --project systems</text>
-    <text x="245" y="190" fill="#9ac5a5" font-family="monospace" font-size="18">$</text><text x="270" y="190" fill="#f1f0e5" font-family="monospace" font-size="18">test --strict</text>
-    <text x="245" y="221" fill="#9ac5a5" font-family="monospace" font-size="18">$</text><text x="270" y="221" fill="#f1f0e5" font-family="monospace" font-size="18">inspect --evidence</text>
-    <rect x="510" y="207" width="9" height="17" rx="1" fill="#c77c62"/>
-    <text x="760" y="140" fill="#765638" font-family="Arial,sans-serif" font-size="36" font-weight="800" letter-spacing="2">BUILD / TEST / LEARN</text>
-    <text x="754" y="133" fill="#d9bd8a" font-family="Arial,sans-serif" font-size="36" font-weight="800" letter-spacing="2">BUILD / TEST / LEARN</text>
-    <path d="M760 160H1290" stroke="#9db8a2" stroke-opacity=".5"/>
-    <text x="760" y="198" fill="#b8cbbb" font-family="monospace" font-size="17">A workbench for ideas that can be tested.</text>
-    <text x="760" y="231" fill="#87a991" font-family="monospace" font-size="14">AI SYSTEMS · SOFTWARE · OPEN SOURCE</text>
-    <path d="M760 263H1290" stroke="#d7b77b" stroke-opacity=".55"/>
-    <text x="760" y="294" fill="#d7b77b" font-family="monospace" font-size="13" letter-spacing="2">STATUS: ALWAYS ITERATING</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="460" viewBox="0 0 1600 460" role="img" aria-labelledby="title desc">
+<title id="title">Keefe workbench — dimensional terminal</title>
+<desc id="desc">An isometric terminal workstation with a layered keyboard deck, live command panel, build stages and system readouts.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#08110e"/><stop offset=".6" stop-color="#172a21"/><stop offset="1" stop-color="#243b2e"/></linearGradient>
+ <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#193326"/><stop offset="1" stop-color="#09130f"/></linearGradient>
+ <linearGradient id="edge" x2="0" y2="1"><stop stop-color="#496b55"/><stop offset="1" stop-color="#101d16"/></linearGradient>
+ <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#a7c5ad" stroke-opacity=".07"/></pattern>
+ <filter id="shadow" x="-20%" y="-30%" width="150%" height="180%"><feGaussianBlur in="SourceAlpha" stdDeviation="12"/><feOffset dy="13"/><feComponentTransfer><feFuncA type="linear" slope=".4"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1600" height="460" rx="24" fill="url(#bg)"/><rect width="1600" height="460" rx="24" fill="url(#grid)"/>
+<path d="M44 52H1556M44 408H1556" stroke="#a6c4ab" stroke-opacity=".2"/>
+<path d="M0 340L1600 275V460H0Z" fill="#365543" opacity=".18"/>
+<!-- Isometric workstation body -->
+<g transform="translate(38 12)" filter="url(#shadow)">
+ <path d="M55 320L720 320L900 220L235 220Z" fill="#050c09" stroke="#789782" stroke-width="2"/>
+ <path d="M55 320L720 320V354L55 354Z" fill="#101d16" stroke="#557561" stroke-width="2"/>
+ <path d="M720 320L900 220V254L720 354Z" fill="#0b1711" stroke="#557561" stroke-width="2"/>
+ <path d="M92 302L245 214L865 214L712 302Z" fill="#294234" stroke="#91b49a" stroke-width="2"/>
+ <path d="M92 302L712 302L720 320L55 320Z" fill="#3d5b47"/>
+ <!-- monitor side and screen -->
+ <path d="M118 38L210 91V242L118 190Z" fill="#07110d" stroke="#8ba894" stroke-width="2"/>
+ <path d="M210 91L760 91V242L210 242Z" fill="url(#screen)" stroke="#8ba894" stroke-width="2"/>
+ <path d="M118 38L668 38L760 91L210 91Z" fill="#2d4939" stroke="#a6c2aa" stroke-width="2"/>
+ <path d="M210 242L760 242L668 190L118 190Z" fill="#14251c" stroke="#789782" stroke-width="1.5"/>
+ <circle cx="152" cy="58" r="5" fill="#c77c62"/><circle cx="170" cy="68" r="5" fill="#d7b77b"/><circle cx="188" cy="78" r="5" fill="#92b79b"/>
+ <text x="246" y="73" fill="#c2d4c5" font-family="monospace" font-size="14" letter-spacing="2">KEEFE / ENGINEERING CONSOLE</text>
+ <text x="246" y="125" fill="#d7b77b" font-family="monospace" font-size="13" letter-spacing="2">SESSION 001 · MAIN WORKSPACE</text>
+ <text x="246" y="158" fill="#a4c9ac" font-family="monospace" font-size="18">$</text><text x="272" y="158" fill="#f1f0e7" font-family="monospace" font-size="18">git status --short</text>
+ <text x="246" y="190" fill="#a4c9ac" font-family="monospace" font-size="18">$</text><text x="272" y="190" fill="#f1f0e7" font-family="monospace" font-size="18">run tests --strict</text>
+ <text x="246" y="222" fill="#a4c9ac" font-family="monospace" font-size="18">$</text><text x="272" y="222" fill="#f1f0e7" font-family="monospace" font-size="18">review evidence</text>
+ <rect x="460" y="207" width="9" height="19" rx="1" fill="#c77c62"/>
+ <!-- keyboard / controls -->
+ <g fill="#172a20" stroke="#8ca995" stroke-opacity=".5" stroke-width="1">
+  <path d="M145 274L530 274L590 242L205 242Z"/>
+  <path d="M165 263l25 0l-8 7h-25z"/><path d="M200 263l25 0l-8 7h-25z"/><path d="M235 263l25 0l-8 7h-25z"/><path d="M270 263l25 0l-8 7h-25z"/><path d="M305 263l25 0l-8 7h-25z"/><path d="M340 263l25 0l-8 7h-25z"/><path d="M375 263l25 0l-8 7h-25z"/><path d="M410 263l25 0l-8 7h-25z"/><path d="M445 263l25 0l-8 7h-25z"/><path d="M480 263l25 0l-8 7h-25z"/><path d="M174 253l25 0l-8 7h-25z"/><path d="M209 253l25 0l-8 7h-25z"/><path d="M244 253l25 0l-8 7h-25z"/><path d="M279 253l25 0l-8 7h-25z"/><path d="M314 253l25 0l-8 7h-25z"/><path d="M349 253l25 0l-8 7h-25z"/><path d="M384 253l25 0l-8 7h-25z"/><path d="M419 253l25 0l-8 7h-25z"/><path d="M454 253l25 0l-8 7h-25z"/><path d="M489 253l25 0l-8 7h-25z"/><path d="M183 243l25 0l-8 7h-25z"/><path d="M218 243l25 0l-8 7h-25z"/><path d="M253 243l25 0l-8 7h-25z"/><path d="M288 243l25 0l-8 7h-25z"/><path d="M323 243l25 0l-8 7h-25z"/><path d="M358 243l25 0l-8 7h-25z"/><path d="M393 243l25 0l-8 7h-25z"/><path d="M428 243l25 0l-8 7h-25z"/><path d="M463 243l25 0l-8 7h-25z"/><path d="M498 243l25 0l-8 7h-25z"/>
+  <path d="M575 274L665 274L725 242L635 242Z"/>
+ </g>
+</g>
+<!-- Right editorial panel -->
+<g transform="translate(1000 82)">
+ <text x="0" y="22" fill="#91b69a" font-family="monospace" font-size="13" letter-spacing="3">A PRACTICE, NOT A FINISH LINE</text>
+ <text x="-4" y="91" fill="#493c2d" font-family="Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="1">BUILD / TEST /</text>
+ <text x="-7" y="84" fill="#e2c58e" font-family="Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="1">BUILD / TEST /</text>
+ <text x="-4" y="151" fill="#493c2d" font-family="Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="1">UNDERSTAND</text>
+ <text x="-7" y="144" fill="#e2c58e" font-family="Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="1">UNDERSTAND</text>
+ <path d="M0 177H520" stroke="#9db8a2" stroke-opacity=".55"/>
+ <text x="0" y="217" fill="#c2d2c3" font-family="monospace" font-size="18">Ideas become useful when they survive</text>
+ <text x="0" y="246" fill="#c2d2c3" font-family="monospace" font-size="18">testing, inspection and real constraints.</text>
+ <g transform="translate(0 290)">
+  <rect width="148" height="48" rx="8" fill="#13271e" stroke="#75947d"/><text x="74" y="20" text-anchor="middle" fill="#d9bd8a" font-family="monospace" font-size="11">01 / BUILD</text><text x="74" y="36" text-anchor="middle" fill="#a9c6ad" font-family="monospace" font-size="10">MAKE IT WORK</text>
+  <rect x="164" width="148" height="48" rx="8" fill="#13271e" stroke="#75947d"/><text x="238" y="20" text-anchor="middle" fill="#d9bd8a" font-family="monospace" font-size="11">02 / TEST</text><text x="238" y="36" text-anchor="middle" fill="#a9c6ad" font-family="monospace" font-size="10">FIND THE EDGE</text>
+  <rect x="328" width="148" height="48" rx="8" fill="#13271e" stroke="#75947d"/><text x="402" y="20" text-anchor="middle" fill="#d9bd8a" font-family="monospace" font-size="11">03 / IMPROVE</text><text x="402" y="36" text-anchor="middle" fill="#a9c6ad" font-family="monospace" font-size="10">FOLLOW EVIDENCE</text>
+ </g>
+</g>
+<text x="800" y="438" text-anchor="middle" fill="#8eaa95" font-family="monospace" font-size="11" letter-spacing="2">KEEFE WORKBENCH / ITERATION LOG</text>
 </svg>
