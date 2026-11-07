@@ -1,32 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title desc">
-<title id="title">Keefe engineering terminal</title>
-<desc id="desc">A restrained terminal window showing realistic version-control and test commands beside a short engineering note.</desc>
-<rect width="1600" height="420" fill="#f1eee4"/>
-<path d="M48 48H1552M48 372H1552" stroke="#aaa99a"/>
-<text x="52" y="31" fill="#647369" font-family="monospace" font-size="12" letter-spacing="2">WORK NOTES / TERMINAL SESSION</text>
-<g transform="translate(52 78)">
- <rect width="890" height="258" fill="#202b25" stroke="#26342c" stroke-width="1.5"/>
- <rect width="890" height="34" fill="#d9d7ca"/>
- <circle cx="18" cy="17" r="4" fill="#9d4a3d"/><circle cx="34" cy="17" r="4" fill="#b28a4e"/><circle cx="50" cy="17" r="4" fill="#68836d"/>
- <text x="72" y="21" fill="#4f5c53" font-family="monospace" font-size="11">keefe@workstation: ~/projects</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+<title id="title">Deep Jade terminal studio</title>
+<desc id="desc">A layered isometric terminal console with command output, code panels, and a three-dimensional desk platform.</desc>
+<defs>
+ <linearGradient id="bg2" x2="1" y2="1"><stop stop-color="#081e18"/><stop offset="1" stop-color="#143d2f"/></linearGradient>
+ <linearGradient id="panel" x2="0" y2="1"><stop stop-color="#1a4334"/><stop offset="1" stop-color="#0b241c"/></linearGradient>
+ <filter id="shadow2" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<rect width="1600" height="500" fill="url(#bg2)"/>
+<g opacity=".12" stroke="#a3b89b"><path d="M0 420L800 180L1600 420M0 460L800 220L1600 460M200 500L800 320L1400 500"/><path d="M200 500L800 320L800 500M600 500L800 440L1000 500"/></g>
+<text x="58" y="48" fill="#a8c2a7" font-family="monospace" font-size="12" letter-spacing="3">WORK NOTES / ENGINEERING LOOP</text>
+<text x="1542" y="48" text-anchor="end" fill="#a8c2a7" font-family="monospace" font-size="12">DEEP JADE · 002</text>
+<path d="M58 68H1542" stroke="#547b66"/>
+<ellipse cx="720" cy="393" rx="600" ry="48" fill="#000" opacity=".28" filter="url(#shadow2)"/>
+<g transform="translate(72 105)">
+ <path d="M0 80L780 0L1060 100L276 190Z" fill="#6c8a70" stroke="#b4c5a7" stroke-width="2"/>
+ <path d="M276 190L1060 100V350L276 440Z" fill="#102d23" stroke="#8ca58b" stroke-width="2"/>
+ <path d="M0 80L276 190V440L0 330Z" fill="#234735" stroke="#8ca58b" stroke-width="2"/>
+ <path d="M36 87L778 16L1015 102L275 179Z" fill="#081b15" stroke="#a8bc9c" stroke-width="2"/>
+ <path d="M58 94L777 30L986 105L276 167Z" fill="url(#panel)"/>
+ <text x="84" y="107" fill="#a9c7a8" font-family="monospace" font-size="12">keefe@workbench:~/workspace</text>
  <g font-family="monospace" font-size="16">
-  <text x="26" y="76" fill="#b6c8b8">$ git status --short</text>
-  <text x="26" y="103" fill="#e8e5d9"> M README.md</text>
-  <text x="26" y="130" fill="#e8e5d9">?? tests/edge-cases.md</text>
-  <text x="26" y="171" fill="#b6c8b8">$ pytest -q</text>
-  <text x="26" y="198" fill="#e8e5d9">..............................</text>
-  <text x="26" y="225" fill="#9bb99e">30 passed</text>
-  <rect x="130" y="212" width="9" height="17" fill="#c17a60"/>
+  <text x="88" y="143" fill="#d7e1cf">$ git diff --check</text>
+  <text x="88" y="171" fill="#a9c7a8">no whitespace errors</text>
+  <text x="88" y="209" fill="#d7e1cf">$ pytest -q</text>
+  <text x="88" y="237" fill="#d9bd87">42 passed · 0 failed</text>
+  <text x="88" y="275" fill="#d7e1cf">$ cargo clippy --all-targets</text>
+  <text x="88" y="303" fill="#a9c7a8">review warnings before merge</text>
  </g>
+ <path d="M276 440L1060 350L1005 390L270 478Z" fill="#071811" stroke="#77947b" stroke-width="2"/>
+ <path d="M0 330L276 440L270 478L0 366Z" fill="#10281e" stroke="#77947b" stroke-width="2"/>
+ <g fill="#9ab39a" font-family="monospace" font-size="12"><text x="350" y="418">BUILD</text><text x="490" y="402">TEST</text><text x="620" y="386">REVIEW</text><text x="770" y="369">SHIP</text></g>
 </g>
-<g transform="translate(1010 100)">
- <text x="0" y="0" fill="#647369" font-family="monospace" font-size="12" letter-spacing="2">ENGINEERING HABIT</text>
- <text x="0" y="58" fill="#26342c" font-family="Arial,sans-serif" font-size="34" font-weight="700">Make the change.</text>
- <text x="0" y="101" fill="#26342c" font-family="Arial,sans-serif" font-size="34" font-weight="700">Check the evidence.</text>
- <path d="M0 128H480" stroke="#aaa99a"/>
- <text x="0" y="166" fill="#647369" font-family="Arial,sans-serif" font-size="17">A clean diff is a start.</text>
- <text x="0" y="193" fill="#647369" font-family="Arial,sans-serif" font-size="17">A tested result is better.</text>
- <text x="0" y="220" fill="#647369" font-family="Arial,sans-serif" font-size="17">Document what remains unknown.</text>
+<g transform="translate(1190 132)">
+ <path d="M0 30L220 8L300 38L80 62Z" fill="#9aaf8f" opacity=".85"/>
+ <path d="M80 62L300 38V220L80 244Z" fill="#16392c" stroke="#8ea88c" stroke-width="2"/>
+ <path d="M0 30L80 62V244L0 212Z" fill="#244936" stroke="#8ea88c" stroke-width="2"/>
+ <text x="28" y="89" fill="#c5d3bd" font-family="monospace" font-size="12">NOTES</text>
+ <text x="28" y="122" fill="#e2d9c2" font-family="Arial,sans-serif" font-size="20" font-weight="700">Evidence</text>
+ <text x="28" y="149" fill="#e2d9c2" font-family="Arial,sans-serif" font-size="20" font-weight="700">over hype.</text>
+ <path d="M28 169L235 146" stroke="#718f75"/>
+ <text x="28" y="194" fill="#a9c2a7" font-family="monospace" font-size="10">inspect · test · explain</text>
 </g>
-<text x="52" y="400" fill="#647369" font-family="monospace" font-size="11" letter-spacing="1.5">COMMANDS SHOWN AS AN ILLUSTRATIVE WORKFLOW, NOT A LIVE SYSTEM STATUS.</text>
+<text x="60" y="476" fill="#91ad93" font-family="monospace" font-size="11" letter-spacing="1.5">ILLUSTRATIVE SESSION — COMMAND OUTPUT IS SAMPLE CONTENT, NOT LIVE STATUS.</text>
 </svg>
