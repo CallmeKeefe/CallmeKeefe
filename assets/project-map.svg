@@ -1,18 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="430" viewBox="0 0 1500 430" role="img" aria-labelledby="title desc">
-<title id="title">Keefe project areas</title>
-<desc id="desc">A simple editorial map of six project areas connected by a shared build and evaluation loop.</desc>
-<rect width="1500" height="430" fill="#f1eee4"/>
-<text x="54" y="48" fill="#647369" font-family="monospace" font-size="12" letter-spacing="2">PROJECT INDEX / CURRENT DIRECTIONS</text>
-<text x="54" y="88" fill="#26342c" font-family="Arial,sans-serif" font-size="27" font-weight="700">Different problems. One engineering loop.</text>
-<path d="M94 195H1406" stroke="#8e9a8e" stroke-width="1.5"/>
-<g font-family="monospace" font-size="12" fill="#647369">
- <g transform="translate(54 145)"><circle cx="40" cy="50" r="26" fill="#e4e0d4" stroke="#647369"/><text x="40" y="55" text-anchor="middle" fill="#26342c" font-size="14">01</text><text x="0" y="105" fill="#26342c" font-family="Arial,sans-serif" font-size="20" font-weight="700">Trace tools</text><text x="0" y="130">OBSERVE</text><text x="0" y="155">LLM trace diagnostics</text></g>
- <g transform="translate(294 145)"><circle cx="40" cy="50" r="26" fill="#e4e0d4" stroke="#647369"/><text x="40" y="55" text-anchor="middle" fill="#26342c" font-size="14">02</text><text x="0" y="105" fill="#26342c" font-family="Arial,sans-serif" font-size="20" font-weight="700">Audio</text><text x="0" y="130">TRANSFORM</text><text x="0" y="155">Speech and transcripts</text></g>
- <g transform="translate(534 145)"><circle cx="40" cy="50" r="26" fill="#e4e0d4" stroke="#647369"/><text x="40" y="55" text-anchor="middle" fill="#26342c" font-size="14">03</text><text x="0" y="105" fill="#26342c" font-family="Arial,sans-serif" font-size="20" font-weight="700">Math tools</text><text x="0" y="130">EXPLORE</text><text x="0" y="155">Calculation and graphs</text></g>
- <g transform="translate(774 145)"><circle cx="40" cy="50" r="26" fill="#e4e0d4" stroke="#647369"/><text x="40" y="55" text-anchor="middle" fill="#26342c" font-size="14">04</text><text x="0" y="105" fill="#26342c" font-family="Arial,sans-serif" font-size="20" font-weight="700">AI evaluation</text><text x="0" y="130">MEASURE</text><text x="0" y="155">State and consistency</text></g>
- <g transform="translate(1014 145)"><circle cx="40" cy="50" r="26" fill="#e4e0d4" stroke="#647369"/><text x="40" y="55" text-anchor="middle" fill="#26342c" font-size="14">05</text><text x="0" y="105" fill="#26342c" font-family="Arial,sans-serif" font-size="20" font-weight="700">Model lab</text><text x="0" y="130">EXPERIMENT</text><text x="0" y="155">Fine-tuning and inference</text></g>
- <g transform="translate(1254 145)"><circle cx="40" cy="50" r="26" fill="#e4e0d4" stroke="#647369"/><text x="40" y="55" text-anchor="middle" fill="#26342c" font-size="14">06</text><text x="0" y="105" fill="#26342c" font-family="Arial,sans-serif" font-size="20" font-weight="700">Systems</text><text x="0" y="130">ENGINEER</text><text x="0" y="155">Rust and OS foundations</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-labelledby="title desc">
+<title id="title">Keefe project architecture map</title>
+<desc id="desc">A deep jade isometric map linking six engineering areas around a shared build, test, measure, and document loop.</desc>
+<defs><linearGradient id="mapbg" x2="1" y2="1"><stop stop-color="#071d17"/><stop offset="1" stop-color="#143b2d"/></linearGradient><filter id="mapshadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="8"/></filter></defs>
+<rect width="1500" height="500" fill="url(#mapbg)"/>
+<text x="54" y="48" fill="#a9c1a7" font-family="monospace" font-size="12" letter-spacing="3">PROJECT ATLAS / CURRENT DIRECTIONS</text>
+<text x="54" y="96" fill="#f0ead9" font-family="Arial,sans-serif" font-size="31" font-weight="700">Six areas. One continuous engineering loop.</text>
+<g opacity=".13" stroke="#b0c5a8"><path d="M0 420L750 210L1500 420M0 460L750 250L1500 460"/></g>
+<path d="M140 240L385 180L625 240L865 180L1105 240L1350 180" fill="none" stroke="#8aa98d" stroke-width="3" stroke-dasharray="7 9"/>
+<g transform="translate(140 240)">
+ <ellipse cx="0" cy="115" rx="98" ry="18" fill="#000" opacity=".28" filter="url(#mapshadow)"/>
+ <path d="M-92 0L0 -30L92 0L0 34Z" fill="#9db392" stroke="#d0d8bd" stroke-width="1.5"/>
+ <path d="M-92 0L0 34V104L-92 70Z" fill="#315c46" stroke="#90a98a" stroke-width="1.5"/>
+ <path d="M0 34L92 0V70L0 104Z" fill="#173b2c" stroke="#90a98a" stroke-width="1.5"/>
+ <text x="0" y="8" text-anchor="middle" fill="#173326" font-family="monospace" font-size="13" font-weight="700">01</text>
+ <text x="0" y="139" text-anchor="middle" fill="#f0ead9" font-family="Arial,sans-serif" font-size="18" font-weight="700">TRACE TOOLS</text>
+ <text x="0" y="163" text-anchor="middle" fill="#d6bd8e" font-family="monospace" font-size="11" letter-spacing="1">OBSERVE</text>
+ <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">LLM trace diagnostics</text>
+</g><g transform="translate(385 180)">
+ <ellipse cx="0" cy="115" rx="98" ry="18" fill="#000" opacity=".28" filter="url(#mapshadow)"/>
+ <path d="M-92 0L0 -30L92 0L0 34Z" fill="#9db392" stroke="#d0d8bd" stroke-width="1.5"/>
+ <path d="M-92 0L0 34V104L-92 70Z" fill="#315c46" stroke="#90a98a" stroke-width="1.5"/>
+ <path d="M0 34L92 0V70L0 104Z" fill="#173b2c" stroke="#90a98a" stroke-width="1.5"/>
+ <text x="0" y="8" text-anchor="middle" fill="#173326" font-family="monospace" font-size="13" font-weight="700">02</text>
+ <text x="0" y="139" text-anchor="middle" fill="#f0ead9" font-family="Arial,sans-serif" font-size="18" font-weight="700">AUDIO</text>
+ <text x="0" y="163" text-anchor="middle" fill="#d6bd8e" font-family="monospace" font-size="11" letter-spacing="1">TRANSFORM</text>
+ <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">Speech & transcripts</text>
+</g><g transform="translate(625 240)">
+ <ellipse cx="0" cy="115" rx="98" ry="18" fill="#000" opacity=".28" filter="url(#mapshadow)"/>
+ <path d="M-92 0L0 -30L92 0L0 34Z" fill="#9db392" stroke="#d0d8bd" stroke-width="1.5"/>
+ <path d="M-92 0L0 34V104L-92 70Z" fill="#315c46" stroke="#90a98a" stroke-width="1.5"/>
+ <path d="M0 34L92 0V70L0 104Z" fill="#173b2c" stroke="#90a98a" stroke-width="1.5"/>
+ <text x="0" y="8" text-anchor="middle" fill="#173326" font-family="monospace" font-size="13" font-weight="700">03</text>
+ <text x="0" y="139" text-anchor="middle" fill="#f0ead9" font-family="Arial,sans-serif" font-size="18" font-weight="700">MATH TOOLS</text>
+ <text x="0" y="163" text-anchor="middle" fill="#d6bd8e" font-family="monospace" font-size="11" letter-spacing="1">EXPLORE</text>
+ <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">Calculation & graphs</text>
+</g><g transform="translate(865 180)">
+ <ellipse cx="0" cy="115" rx="98" ry="18" fill="#000" opacity=".28" filter="url(#mapshadow)"/>
+ <path d="M-92 0L0 -30L92 0L0 34Z" fill="#9db392" stroke="#d0d8bd" stroke-width="1.5"/>
+ <path d="M-92 0L0 34V104L-92 70Z" fill="#315c46" stroke="#90a98a" stroke-width="1.5"/>
+ <path d="M0 34L92 0V70L0 104Z" fill="#173b2c" stroke="#90a98a" stroke-width="1.5"/>
+ <text x="0" y="8" text-anchor="middle" fill="#173326" font-family="monospace" font-size="13" font-weight="700">04</text>
+ <text x="0" y="139" text-anchor="middle" fill="#f0ead9" font-family="Arial,sans-serif" font-size="18" font-weight="700">AI EVALUATION</text>
+ <text x="0" y="163" text-anchor="middle" fill="#d6bd8e" font-family="monospace" font-size="11" letter-spacing="1">MEASURE</text>
+ <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">State & consistency</text>
+</g><g transform="translate(1105 240)">
+ <ellipse cx="0" cy="115" rx="98" ry="18" fill="#000" opacity=".28" filter="url(#mapshadow)"/>
+ <path d="M-92 0L0 -30L92 0L0 34Z" fill="#9db392" stroke="#d0d8bd" stroke-width="1.5"/>
+ <path d="M-92 0L0 34V104L-92 70Z" fill="#315c46" stroke="#90a98a" stroke-width="1.5"/>
+ <path d="M0 34L92 0V70L0 104Z" fill="#173b2c" stroke="#90a98a" stroke-width="1.5"/>
+ <text x="0" y="8" text-anchor="middle" fill="#173326" font-family="monospace" font-size="13" font-weight="700">05</text>
+ <text x="0" y="139" text-anchor="middle" fill="#f0ead9" font-family="Arial,sans-serif" font-size="18" font-weight="700">MODEL LAB</text>
+ <text x="0" y="163" text-anchor="middle" fill="#d6bd8e" font-family="monospace" font-size="11" letter-spacing="1">EXPERIMENT</text>
+ <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">Fine-tuning & inference</text>
+</g><g transform="translate(1350 180)">
+ <ellipse cx="0" cy="115" rx="98" ry="18" fill="#000" opacity=".28" filter="url(#mapshadow)"/>
+ <path d="M-92 0L0 -30L92 0L0 34Z" fill="#9db392" stroke="#d0d8bd" stroke-width="1.5"/>
+ <path d="M-92 0L0 34V104L-92 70Z" fill="#315c46" stroke="#90a98a" stroke-width="1.5"/>
+ <path d="M0 34L92 0V70L0 104Z" fill="#173b2c" stroke="#90a98a" stroke-width="1.5"/>
+ <text x="0" y="8" text-anchor="middle" fill="#173326" font-family="monospace" font-size="13" font-weight="700">06</text>
+ <text x="0" y="139" text-anchor="middle" fill="#f0ead9" font-family="Arial,sans-serif" font-size="18" font-weight="700">SYSTEMS</text>
+ <text x="0" y="163" text-anchor="middle" fill="#d6bd8e" font-family="monospace" font-size="11" letter-spacing="1">ENGINEER</text>
+ <text x="0" y="184" text-anchor="middle" fill="#a9c1a7" font-family="Arial,sans-serif" font-size="12">Rust & OS foundations</text>
 </g>
-<path d="M54 365H1446" stroke="#aaa99a"/>
-<text x="54" y="397" fill="#647369" font-family="monospace" font-size="11" letter-spacing="1.5">OBSERVE → BUILD → TEST → MEASURE → DOCUMENT → REPEAT</text>
+<path d="M54 445H1446" stroke="#547b66"/>
+<text x="54" y="475" fill="#a9c1a7" font-family="monospace" font-size="11" letter-spacing="1.5">OBSERVE  →  BUILD  →  TEST  →  MEASURE  →  DOCUMENT  →  REPEAT</text>
 </svg>
