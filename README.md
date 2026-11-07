@@ -1,193 +1,197 @@
 <!--
-  Profile README — terminal / systems / strategy visual language.
-  Keep every project description aligned with its repository's current state.
+  Profile README — deep-jade terminal design with evidence-based project descriptions.
+  Keep claims aligned with linked repositories and published artifacts.
 -->
 
 <p align="center">
-  <img src="assets/profile-header.svg" alt="Terminal title with Xiangqi and chess starting positions" width="100%" />
+  <img src="assets/profile-header.svg" alt="Terminal-inspired profile header with Xiangqi and chess starting positions" width="100%" />
 </p>
 
 <h1 align="center">Steven Keefe</h1>
-
+<p align="center"><strong>AI research · software engineering · systems experiments</strong></p>
 <p align="center">
-  <strong>AI engineering · software systems · open-source experiments</strong>
-</p>
-
-<p align="center">
-  <a href="https://keefe.is-a.dev">Portfolio</a>
-  &nbsp;◆&nbsp;
-  <a href="https://github.com/CallmeKeefe?tab=repositories">GitHub projects</a>
-  &nbsp;◆&nbsp;
+  <a href="https://keefe.is-a.dev">Portfolio</a> ·
+  <a href="https://github.com/CallmeKeefe?tab=repositories">GitHub projects</a> ·
   <a href="https://huggingface.co/KeefeBuild">Hugging Face</a>
 </p>
-
-<p align="center">
-  <sub>Build with curiosity. Test with discipline. Explain the limits.</sub>
-</p>
+<p align="center"><sub>Curiosity starts the build. Evidence decides whether it works.</sub></p>
 
 ---
 
-## `$ whoami`
+## $ whoami
 
-I’m an independent developer and builder exploring the intersection of **artificial intelligence, software engineering, and computer systems**.
+I'm an independent developer exploring how intelligent software is designed, evaluated, and engineered—from language-model behavior to the systems underneath an application.
 
-I’m interested in how intelligent software works beneath the interface: how models are trained and evaluated, how tools and agents interact with real systems, how applications stay dependable, and how low-level software moves from a boot sequence toward a usable platform.
+I learn by building things that can be inspected: web products, AI evaluation tools, model experiments, and low-level systems prototypes. I enjoy the full loop: define a problem, make a working version, test edge cases, investigate failures, document limitations, and improve the design.
 
-My projects are a mix of practical applications and research-driven experiments:
+**The questions that keep me building:**
 
-- **AI and model work** — fine-tuning experiments, model evaluation, tool grounding, and consistency under changing evidence.
-- **Developer tools** — diagnostics, mathematical utilities, automation workflows, and interfaces that make complex tasks easier to inspect.
-- **Systems engineering** — Rust, boot processes, kernel foundations, and the boundary between applications and hardware.
-- **Creative computing** — audio workflows, interactive 3D visuals, video production systems, and strategy-game interfaces.
-
-I learn by building, measuring, debugging, and documenting what did *not* work. I care more about a clear engineering explanation than an impressive-sounding feature list.
+- Can an AI system stay consistent when facts change or evidence conflicts?
+- How can model behavior become easier to inspect, test, and evaluate?
+- Can useful developer tools make complex tasks feel simpler?
+- What happens between firmware, a bootloader, and a kernel?
+- How can interfaces be expressive and genuinely usable?
 
 <p align="center">
-  <img src="assets/terminal-console.svg" alt="Isometric 3D terminal console with dimensional lettering and an ASCII-style map of AI, data, systems, web, and media projects" width="100%" />
+  <img src="assets/terminal-stage.svg" alt="Isometric three-dimensional terminal console showing a build, test, inspect workflow" width="100%" />
 </p>
 
 ### A small terminal snapshot
 
-```text
-      _  __          __       ____  __
-     / |/ /__  ___  / /__    / __ \/ /__  ___
-    /    / _ \/ _ \/  '_/   / /_/ / / _ \/ _ \
-   /_/|_/\___/\___/_/\_\    \____/_/\___/\___/
+~~~text
+             .--------------------------------------.
+            /  KEEFE / WORKBENCH                   /|
+           /--------------------------------------/ |
+           |  $ whoami                            | |
+           |  independent developer               | |
+           |                                      | |
+           |  $ focus                             | |
+           |  AI evaluation  /  software          | |
+           |  systems        /  open source        | |
+           |                                      | /
+           '--------------------------------------'
 
-   $ focus
-   +-- artificial intelligence
-   +-- software & systems engineering
-   +-- open-source tools
-   +-- research through experiments
-
-   $ workflow
-   observe -> prototype -> test -> refine -> document
-```
+  build  ->  test  ->  inspect  ->  document  ->  improve
+~~~
 
 ---
 
-## `$ ./work --featured`
+## $ tree ./work --depth=2
 
-The projects below represent the main themes of my work. Each description reflects the repository's documented scope; experimental projects are labelled as such.
+A map of the problems and products I work on:
 
 <p align="center">
-  <img src="assets/project-map.svg" alt="Project map: AI trace diagnostics, audio workflows, mathematical tools, and model evaluation research" width="100%" />
+  <img src="assets/project-map.svg" alt="Six project areas: trace diagnostics, audio workflows, math tools, model evaluation, language model experiments, and operating-system foundations" width="100%" />
 </p>
 
-### 01 / Research & model evaluation
+### 01 · LLM Hallucination Checker Edge
 
-**[Data-Provecta](https://huggingface.co/datasets/KeefeBuild/Data-Provecta)**  
-*A benchmark dataset for reasoning that must stay grounded as the world changes.*
+**Inspect structural warning signs in LLM traces.**
 
-Explores long-horizon state tracking, temporal consistency, conflicting evidence, tool grounding, uncertainty calibration, and adversarial robustness. Scenarios are structured around an authoritative state, an evolving evidence trail, expected tool interactions, and explicit failure conditions.
+An OpenTelemetry-oriented diagnostic utility that parses GenAI trace spans and flags signals such as empty completions, missing citation markers, and missing model metadata. It has a Python core, a dependency-free edge Worker, a browser widget, and a command-line interface.
 
-- Focus: state tracking, evidence quality, tool use, consistency, and adversarial scenarios.
-- Format: structured JSON dataset for evaluation and training-support experiments.
-- [Dataset card](https://huggingface.co/datasets/KeefeBuild/Data-Provecta)
+- Deterministic heuristics; no external LLM judge is required.
+- Supports local trace scoring in the browser and trace-file evaluation from the CLI.
+- Includes tests across the Python and Worker implementations.
 
-**[Keefe-Discere](https://huggingface.co/KeefeBuild/Keefe-Discere)**  
-*An open model-development and fine-tuning project.*
+[Repository](https://github.com/CallmeKeefe/llm-hallucination-checker-edge) · [Live demo](https://llm-hallucination-checker.pages.dev/)
 
-A Qwen2.5-family language-model project exploring instruction tuning, coding and mathematics-oriented behavior, model merging, and distributable model formats. The Hugging Face repository includes model artifacts and usage paths for common inference tooling.
+<sub>Boundary: this is a structural triage tool, not a factuality detector. Its score is not a probability that an answer is hallucinated.</sub>
 
-- Focus: model adaptation, training workflows, and practical model distribution.
-- License shown on the model repository: Apache-2.0.
-- [Model repository](https://huggingface.co/KeefeBuild/Keefe-Discere)
+### 02 · VoxShift
 
-### 02 / AI reliability & developer tools
+**A workspace for speech and transcript workflows.**
 
-**[LLM Hallucination Checker Edge](https://github.com/CallmeKeefe/llm-hallucination-checker-edge)**  
-*Inspect structural warning signs in LLM traces.*
+A deployed web application focused on transcription, translation, and working with generated transcripts. The product separates its web experience from audio-provider functionality.
 
-An OpenTelemetry-oriented diagnostic utility that parses GenAI trace spans and flags signals such as empty completions, missing citation markers, and missing model metadata. The Python core, edge Worker, and browser widget use deterministic heuristics.
+[Open VoxShift](https://vox-shift.vercel.app/)
 
-- Python library and CLI, Cloudflare Worker, and browser-based trace widget.
-- No external LLM judge is required for its heuristic checks.
-- **Important boundary:** it does not determine whether a response is factually true. Its score is a structural triage signal, not a calibrated hallucination probability.
-- [Live demo](https://llm-hallucination-checker.pages.dev/) · [Source](https://github.com/CallmeKeefe/llm-hallucination-checker-edge)
+<sub>The demo is public; its source repository is currently private. Provider availability and deployed features may change.</sub>
 
-### 03 / Audio & language workflows
+### 03 · Keefe Calculator
 
-**[VoxShift](https://github.com/CallmeKeefe/Vox-Shift)**  
-*An evolving workspace for speech, transcripts, and language workflows.*
+**A browser-based environment for mathematical exploration.**
 
-A web application combining upload and real-time audio interfaces, transcription and transcript workflows, provider routing, persistence, and a separate FastAPI-based audio service.
+A multi-tool math workspace bringing together scientific calculation, function graphing, unit conversion, constants, and calculation history, with optional cloud and AI integrations.
 
-- Stack documented in the repository: Next.js, React, TypeScript, Prisma, and Python/FastAPI components.
-- Provider availability, language coverage, and model quality depend on the configured services.
-- [Open app](https://vox-shift.vercel.app/) · [Source](https://github.com/CallmeKeefe/Vox-Shift)
+[Open Keefe Calculator](https://keefe-calculator.vercel.app/)
 
-### 04 / Mathematics & learning tools
+<sub>The demo is public; its source repository is currently private. It is a practical math workspace, not a full computer-algebra system.</sub>
 
-**[Keefe Calculator](https://github.com/CallmeKeefe/Keefe-Calculator)**  
-*A browser-based workspace for mathematical exploration.*
+### 04 · Data-Provecta
 
-Combines a scientific calculator, function graphing, unit conversion, scientific constants, calculation history, and optional cloud or AI-assisted features.
+**A dataset for evaluating long-horizon grounded reasoning.**
 
-- React and Vite application with KaTeX-based mathematical typesetting.
-- Includes a Progressive Web App experience and solver regression tests.
-- **Important boundary:** it is not a full computer-algebra system; optional integrations depend on their configuration.
-- [Open calculator](https://keefe-calculator.vercel.app/) · [Source](https://github.com/CallmeKeefe/Keefe-Calculator)
+Data-Provecta studies whether models can maintain a reliable view of the world as new evidence arrives, facts change, tools disagree, and misleading information appears.
+
+Its scenario design separates authoritative state from observable evidence. The dataset includes versioned examples, train/validation/test splits, difficulty metadata, and adversarial variants such as stale evidence, red herrings, authority conflicts, and conflicting tool outputs.
+
+- **80 published rows** on the current Hugging Face dataset page.
+- A canonical schema and state-machine-oriented ground truth.
+- Evaluation dimensions include temporal consistency, tool grounding, conflict resolution, and uncertainty calibration.
+- Designed for research and evaluation—not as a guarantee of model safety or correctness.
+
+[Dataset](https://huggingface.co/datasets/KeefeBuild/Data-Provecta)
+
+### 05 · Keefe-Discere
+
+**An open model-development and fine-tuning experiment.**
+
+A Qwen2.5-7B-based model project exploring instruction tuning and code/tool-use behavior. The Hugging Face repository publishes model artifacts in formats including GGUF and Safetensors, with usage paths for Transformers and llama.cpp.
+
+[Model and files](https://huggingface.co/KeefeBuild/Keefe-Discere)
+
+<sub>Published artifacts and model revisions are experimental; results depend on the exact revision, runtime, quantization, and hardware.</sub>
+
+### 06 · KeefeOS
+
+**Learning systems engineering from the boot path upward.**
+
+An experimental x86-64 operating-system prototype built around a UEFI loader, a Rust kernel, a boot protocol, and QEMU/OVMF testing.
+
+The repository documents successful early-boot checks across 256 MiB, 512 MiB, and 1 GiB QEMU memory profiles. It also documents what is not ready: physical installation, broad hardware support, a complete driver stack, and production security.
+
+[Repository](https://github.com/CallmeKeefe/Keefe-OS) · [Build and boot guide](https://github.com/CallmeKeefe/Keefe-OS/blob/main/docs/BUILD_AND_BOOT_GUIDE.md) · [CI history](https://github.com/CallmeKeefe/Keefe-OS/actions)
 
 ---
 
-## `$ ls ./other-work`
+## $ ls ./side-projects
 
-| Project | What it explores | Current scope |
-|:--|:--|:--|
-| [Personal Website](https://github.com/CallmeKeefe/Personal-Website) · [Live](https://keefe.is-a.dev) | Multilingual portfolio, interactive WebGL/3D visuals, audio experiments, and optional AI-assisted visitor interactions. | Portfolio application; integrations depend on deployment configuration. |
-| [Keefe AI](https://github.com/CallmeKeefe/Keefe-AI) · [Live](https://keefe-ai.vercel.app/) | Experimental browser-based AI workspace for multi-provider chat, project workflows, and optional integrations. | Active experiment; feature availability varies by implementation and configured services. |
-| [Universal Video Studio](https://github.com/CallmeKeefe/universal-video-studio) | Remotion video compositions plus a local production platform for jobs, scheduling, research, memory, skills, and render benchmarking. | Developer production toolkit; social publishing depends on provider approval and credentials. |
-| [KeefeOS](https://github.com/CallmeKeefe/Keefe-OS) | Rust-based x86-64 operating-system foundations, UEFI boot flow, kernel development, and QEMU/OVMF testing. | Experimental VM prototype; not a physical-device installer or general-purpose OS. |
-| [Xiangqi Game](https://github.com/CallmeKeefe/xiangqi-game) | Browser-based Chinese chess with local play, an AI opponent, difficulty settings, move history, and in-page analysis. | Local two-player or human-vs-AI game; no online multiplayer. |
-| [B2B Vertical Micro-SaaS](https://github.com/CallmeKeefe/B2B-Vertical-Micro-SaaS) | A dashboard foundation for exploring a vertical SaaS product. | UI scaffold with sample data; authentication, billing, tenant isolation, and production workflows are not implemented. |
+### Xiangqi — Chinese Chess
+
+A self-contained browser game with local two-player play and an AI opponent with selectable difficulty. It includes move history, undo, new-game controls, sound, and an in-page analysis panel.
+
+[Source code and run instructions](https://github.com/CallmeKeefe/xiangqi-game)
+
+<sub>Local browser game; no online multiplayer. Difficulty labels describe application settings, not tournament-engine strength.</sub>
 
 ---
 
-## `$ cat principles.txt`
+## $ cat interests.txt
 
-- **Evidence over appearance** — distinguish a tested capability from a roadmap idea.
-- **Useful over complicated** — build the smallest system that solves a real problem.
-- **Open by default** — document projects so other developers can inspect, learn, and contribute.
-- **Failure is information** — use tests, logs, and review to find what needs to change.
-- **Respect the boundary** — explain privacy, reliability, and security limitations instead of hiding them.
+| Area | What I like exploring |
+|:--|:--|
+| **AI evaluation** | State tracking, consistency, grounded tool use, uncertainty, and adversarial testing |
+| **Model development** | Fine-tuning workflows, inference formats, quantization, and reproducible experiments |
+| **Developer tools** | Diagnostics, automation, useful interfaces, and testable workflows |
+| **Systems engineering** | Rust, boot protocols, memory management, kernel boundaries, and virtual-machine testing |
+| **Product engineering** | Responsive web apps, interaction design, performance, and deployment |
+| **Strategy games** | Xiangqi, chess, Go, and the design of game-playing systems |
 
-## `$ stack --across-projects`
+## $ stack --from-projects
 
 <details>
-<summary><strong>Languages, frameworks, and tools</strong></summary>
+<summary><strong>Languages, frameworks, and tools used across my projects</strong></summary>
 
-| Area | Technologies appearing across my repositories |
+| Layer | Technologies |
 |:--|:--|
 | Languages | Python · Rust · C++ · TypeScript · JavaScript |
-| AI & ML | PyTorch · Hugging Face · Transformers · Unsloth |
+| AI and data | PyTorch · Hugging Face · Transformers · Unsloth · Pydantic |
 | Web | React · Next.js · Vite · Node.js · Tailwind CSS |
-| Data & services | Prisma · Firebase · Supabase · FastAPI |
-| Systems & media | UEFI · QEMU · Remotion · WebGL |
-| Engineering workflow | GitHub Actions · Docker · Vercel · Cloudflare |
+| Systems | UEFI · x86-64 · QEMU · OVMF |
+| Infrastructure | GitHub Actions · Vercel · Cloudflare Workers · Firebase · Supabase · Docker |
+| Quality | pytest · Node test runner · Clippy · RustSec · CI workflows |
 
-<sub>This is a cross-project technology index, not a claim of equal depth or expertise in every tool.</sub>
-
+<sub>This is a map of technologies used across different projects—not a claim of equal expertise in every tool.</sub>
 </details>
-
-## `$ find ./next-questions`
-
-I’m especially interested in:
-
-- Reliable AI systems and evaluation beyond one-shot accuracy.
-- Models that can track state, use tools faithfully, and communicate uncertainty.
-- Operating-system design, kernel architecture, and safe systems interfaces.
-- Open-source developer tools and accessible learning software.
-- Interactive computing, audio, graphics, and thoughtful product design.
 
 ---
 
+## $ principles
+
+- **Build in public where possible.** Make the work inspectable and invite useful feedback.
+- **Prefer evidence over impressive wording.** A passing test proves only what that test covers.
+- **Keep limitations visible.** A prototype should be described as a prototype.
+- **Design for the person using it.** Clarity, accessibility, responsiveness, and performance matter.
+- **Treat setbacks as information.** Find the failing assumption, test it, and iterate.
+
 <p align="center">
-  <strong>Measure twice. Build once. Keep learning.</strong>
-  <br />
-  <a href="https://keefe.is-a.dev">Portfolio</a>
-  &nbsp;◆&nbsp;
-  <a href="https://github.com/CallmeKeefe">GitHub</a>
-  &nbsp;◆&nbsp;
+  <img src="assets/terminal-divider.svg" alt="Terminal prompt divider" width="100%" />
+</p>
+
+<p align="center">
+  <strong>Make it useful. Make it testable. Make it better.</strong><br />
+  <a href="https://keefe.is-a.dev">Portfolio</a> ·
+  <a href="https://github.com/CallmeKeefe">GitHub</a> ·
   <a href="https://huggingface.co/KeefeBuild">Hugging Face</a>
 </p>
