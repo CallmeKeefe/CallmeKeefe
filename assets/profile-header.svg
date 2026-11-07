@@ -140,7 +140,7 @@
         <path d="M12 22H36.5V46.5H12ZM61 22H85.5V46.5H61ZM110 22H134.5V46.5H110ZM159 22H183.5V46.5H159ZM36.5 46.5H61V71H36.5ZM85.5 46.5H110V71H85.5ZM134.5 46.5H159V71H134.5ZM183.5 46.5H208V71H183.5ZM12 71H36.5V95.5H12ZM61 71H85.5V95.5H61ZM110 71H134.5V95.5H110ZM159 71H183.5V95.5H159ZM36.5 95.5H61V120H36.5ZM85.5 95.5H110V120H85.5ZM134.5 95.5H159V120H134.5ZM183.5 95.5H208V120H183.5ZM12 120H36.5V144.5H12ZM61 120H85.5V144.5H61ZM110 120H134.5V144.5H110ZM159 120H183.5V144.5H159ZM36.5 144.5H61V169H36.5ZM85.5 144.5H110V169H85.5ZM134.5 144.5H159V169H134.5ZM183.5 144.5H208V169H183.5ZM12 169H36.5V193.5H12ZM61 169H85.5V193.5H61ZM110 169H134.5V193.5H110ZM159 169H183.5V193.5H159ZM36.5 193.5H61V218H36.5ZM85.5 193.5H110V218H85.5ZM134.5 193.5H159V218H134.5ZM183.5 193.5H208V218H183.5Z" fill="#33483b"/>
       </g>
       <g font-family="DejaVu Sans, Segoe UI Symbol, serif" text-anchor="middle" dominant-baseline="central">
-        <g fill="#f9f4e8" stroke="#26342c" stroke-width=".8" paint-order="stroke" font-size="21">
+        <g fill="#25382d" stroke="#f3dfb8" stroke-width="1.4" paint-order="stroke" font-size="21">
           <text x="24.25" y="34">♜</text><text x="48.75" y="34">♞</text><text x="73.25" y="34">♝</text><text x="97.75" y="34">♛</text><text x="122.25" y="34">♚</text><text x="146.75" y="34">♝</text><text x="171.25" y="34">♞</text><text x="195.75" y="34">♜</text>
           <text x="24.25" y="58.5">♟</text><text x="48.75" y="58.5">♟</text><text x="73.25" y="58.5">♟</text><text x="97.75" y="58.5">♟</text><text x="122.25" y="58.5">♟</text><text x="146.75" y="58.5">♟</text><text x="171.25" y="58.5">♟</text><text x="195.75" y="58.5">♟</text>
         </g>
